@@ -41,7 +41,6 @@ local tbl =
 						{
 							aType = "Variable",
 							gVar = "ACR_RikuPLD2_Potion",
-							gVarValue = 2,
 							uuid = "089e3e20-4f25-ede3-bacc-22889d87658d",
 							version = 2,
 						},
@@ -115,6 +114,7 @@ local tbl =
 						},
 					},
 				},
+				enabled = false,
 				mechanicTime = 12.2,
 				name = "xuechou",
 				timeRange = true,
@@ -535,7 +535,7 @@ local tbl =
 				},
 				eventType = 2,
 				mechanicTime = 50.2,
-				name = "Shirk to OT Swap",
+				name = "tuibi",
 				timeRange = true,
 				timelineIndex = 9,
 				timerEndOffset = 10,
@@ -574,6 +574,38 @@ local tbl =
 				timerOffset = -9,
 				timerStartOffset = -10,
 				uuid = "9b7380a1-4af3-4e00-91a4-022694a8b499",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							actionID = 18,
+							gVar = "ACR_RikuPLD2_Hotbar_ShirkOT",
+							uuid = "70f049fa-7e36-6da8-adab-d784d8c80289",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 50.2,
+				name = "tuibi e",
+				timelineIndex = 9,
+				timerEndOffset = 10,
+				timerOffset = 1,
+				timerStartOffset = -10,
+				uuid = "02a95503-2def-3846-bd01-12166f12c532",
 				version = 2,
 			},
 		},
@@ -740,7 +772,7 @@ local tbl =
 				name = "mulian",
 				timeRange = true,
 				timelineIndex = 17,
-				timerEndOffset = 10,
+				timerEndOffset = -1,
 				timerOffset = -4,
 				timerStartOffset = -15,
 				uuid = "42eb779a-ad90-2c92-bbae-86835df4917f",
@@ -2180,6 +2212,39 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
+							gVar = "ACR_RikuPLD2_Tankbar_Bulwark",
+							uuid = "29307120-5f65-5986-98b4-33cc791336d1",
+							variableTogglesType = 3,
+							version = 2,
+						},
+						inheritedIndex = 1,
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 396.4,
+				name = "bilei",
+				timeRange = true,
+				timelineIndex = 94,
+				timerEndOffset = -0.5,
+				timerOffset = -9,
+				timerStartOffset = -10,
+				uuid = "b5365825-97e3-5f71-ae00-bba592d285a6",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
 							actionID = 18,
 							conditions = 
 							{
@@ -2232,12 +2297,12 @@ local tbl =
 				},
 				eventType = 2,
 				mechanicTime = 396.4,
-				name = "Shirk to OT Swap",
+				name = "tuibi",
 				timeRange = true,
 				timelineIndex = 94,
 				timerEndOffset = 10,
-				timerStartOffset = -3,
-				uuid = "3e585003-d655-9c1a-9096-9cf8c963d06b",
+				timerStartOffset = -10,
+				uuid = "cf24b793-e83c-fc9c-bcce-13d41d2370d8",
 				version = 2,
 			},
 		},
@@ -2252,25 +2317,24 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							gVar = "ACR_RikuPLD2_Tankbar_Bulwark",
-							uuid = "29307120-5f65-5986-98b4-33cc791336d1",
-							variableTogglesType = 3,
+							actionID = 18,
+							gVar = "ACR_RikuPLD2_Hotbar_ShirkOT",
+							uuid = "70f049fa-7e36-6da8-adab-d784d8c80289",
+							variableTogglesType = 2,
 							version = 2,
 						},
-						inheritedIndex = 1,
 					},
 				},
 				conditions = 
 				{
 				},
 				mechanicTime = 396.4,
-				name = "bilei",
-				timeRange = true,
+				name = "tuibi e",
 				timelineIndex = 94,
-				timerEndOffset = -0.5,
-				timerOffset = -9,
+				timerEndOffset = 10,
+				timerOffset = 1,
 				timerStartOffset = -10,
-				uuid = "b5365825-97e3-5f71-ae00-bba592d285a6",
+				uuid = "54053bf7-e862-aed9-990f-dcbf8a02bd34",
 				version = 2,
 			},
 		},
@@ -2419,6 +2483,68 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 9,
+		},
+	},
+	[105] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuPLD2_CD",
+							gVarValue = 2,
+							uuid = "4dce351a-7f44-a50f-8c82-0de7f0b67e47",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 438.6,
+				name = "cd off",
+				timelineIndex = 105,
+				timerOffset = -3,
+				uuid = "a9f0ee73-5cca-fa71-b049-b5afea9df4c5",
+				version = 2,
+			},
+		},
+	},
+	[113] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuPLD2_CD",
+							uuid = "4dce351a-7f44-a50f-8c82-0de7f0b67e47",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 461.8,
+				name = "cd on",
+				timelineIndex = 113,
+				uuid = "a6f927f6-746d-8202-9c4b-af1166ec9e72",
+				version = 2,
+			},
 		},
 	},
 	[121] = 
@@ -2877,6 +3003,39 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
+							gVar = "ACR_RikuPLD2_Tankbar_Bulwark",
+							uuid = "29307120-5f65-5986-98b4-33cc791336d1",
+							variableTogglesType = 3,
+							version = 2,
+						},
+						inheritedIndex = 1,
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 538,
+				name = "bilei",
+				timeRange = true,
+				timelineIndex = 133,
+				timerEndOffset = -0.5,
+				timerOffset = -9,
+				timerStartOffset = -10,
+				uuid = "b7d5d4b0-17de-968f-bd15-c08f7ae92c76",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
 							actionID = 18,
 							conditions = 
 							{
@@ -2929,12 +3088,12 @@ local tbl =
 				},
 				eventType = 2,
 				mechanicTime = 538,
-				name = "Shirk to OT Swap",
+				name = "tuibi",
 				timeRange = true,
 				timelineIndex = 133,
 				timerEndOffset = 10,
 				timerStartOffset = -10,
-				uuid = "bc39895e-a16b-a240-9f8e-510428976ce4",
+				uuid = "82e2af5a-9829-7bfd-b74e-d88e0d7d0407",
 				version = 2,
 			},
 		},
@@ -2949,25 +3108,24 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							gVar = "ACR_RikuPLD2_Tankbar_Bulwark",
-							uuid = "29307120-5f65-5986-98b4-33cc791336d1",
-							variableTogglesType = 3,
+							actionID = 18,
+							gVar = "ACR_RikuPLD2_Hotbar_ShirkOT",
+							uuid = "70f049fa-7e36-6da8-adab-d784d8c80289",
+							variableTogglesType = 2,
 							version = 2,
 						},
-						inheritedIndex = 1,
 					},
 				},
 				conditions = 
 				{
 				},
 				mechanicTime = 538,
-				name = "bilei",
-				timeRange = true,
+				name = "tuibi e",
 				timelineIndex = 133,
-				timerEndOffset = -0.5,
-				timerOffset = -9,
+				timerEndOffset = 10,
+				timerOffset = 1,
 				timerStartOffset = -10,
-				uuid = "b7d5d4b0-17de-968f-bd15-c08f7ae92c76",
+				uuid = "a39f49fd-849e-8b08-820b-d0fab1c6c825",
 				version = 2,
 			},
 		},

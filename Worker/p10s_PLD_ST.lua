@@ -2664,6 +2664,7 @@ local tbl =
 						},
 					},
 				},
+				enabled = false,
 				mechanicTime = 384.6,
 				name = "dunzhen",
 				timeRange = true,
@@ -2697,6 +2698,7 @@ local tbl =
 				conditions = 
 				{
 				},
+				enabled = false,
 				mechanicTime = 384.6,
 				name = "bilei",
 				timeRange = true,
@@ -2765,7 +2767,6 @@ local tbl =
 						},
 					},
 				},
-				enabled = false,
 				mechanicTime = 384.6,
 				name = "ganyu ot",
 				randomOffset = 5,
@@ -2981,7 +2982,7 @@ local tbl =
 				name = "LB",
 				timelineIndex = 80,
 				timerEndOffset = 3,
-				timerOffset = -0.20000000298023,
+				timerOffset = -0.5,
 				uuid = "c2583728-54ea-55a2-b899-1da4d1693e15",
 				version = 2,
 			},
@@ -3044,7 +3045,6 @@ local tbl =
 						},
 					},
 				},
-				enabled = false,
 				mechanicTime = 446,
 				name = "ganyu ot",
 				randomOffset = 5,
@@ -3226,10 +3226,11 @@ local tbl =
 				},
 				mechanicTime = 454,
 				name = "tiebi",
+				timeRange = true,
 				timelineIndex = 84,
-				timerEndOffset = -0.5,
+				timerEndOffset = -10,
 				timerOffset = -20,
-				timerStartOffset = -20,
+				timerStartOffset = -19.5,
 				uuid = "9a0639ff-64cc-07f8-9f67-f3a91fbf90ff",
 				version = 2,
 			},
@@ -3585,7 +3586,6 @@ local tbl =
 						},
 					},
 				},
-				enabled = false,
 				mechanicTime = 490.6,
 				name = "dunzhen",
 				timeRange = true,
@@ -3618,7 +3618,6 @@ local tbl =
 				conditions = 
 				{
 				},
-				enabled = false,
 				mechanicTime = 490.6,
 				name = "bilei",
 				timeRange = true,
@@ -3649,6 +3648,11 @@ local tbl =
 									"369c369a-f5ff-2dea-b30a-5c76bae3ca61",
 									true,
 								},
+								
+								{
+									"1d516ceb-46e1-be4f-8149-41bd6a9cb82c",
+									true,
+								},
 							},
 							gVar = "ACR_RikuPLD2_Tankbar_InterventionOT",
 							uuid = "c589d305-82e0-033c-818f-78ca9c517fdb",
@@ -3667,6 +3671,18 @@ local tbl =
 							conditionType = 6,
 							gaugeValue = 50,
 							uuid = "369c369a-f5ff-2dea-b30a-5c76bae3ca61",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							actionID = 3542,
+							category = "Self",
+							comparator = 2,
+							conditionType = 4,
+							uuid = "1d516ceb-46e1-be4f-8149-41bd6a9cb82c",
 							version = 2,
 						},
 					},
@@ -3736,7 +3752,7 @@ local tbl =
 				uuid = "62ac0ba0-0e80-088d-af10-b04ec13bc63b",
 				version = 2,
 			},
-			inheritedIndex = 2,
+			inheritedIndex = 1,
 		},
 	},
 	[91] = 

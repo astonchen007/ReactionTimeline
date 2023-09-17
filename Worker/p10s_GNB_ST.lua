@@ -472,6 +472,125 @@ local tbl =
 			inheritedIndex = 1,
 		},
 	},
+	[9] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"fdcd16a2-e8ff-f87f-ac14-ab6bc4c41fb6",
+									true,
+								},
+							},
+							endIfUsed = true,
+							gVar = "ACR_RikuGNB2_Tankbar_Aurora",
+							targetType = "Detection Target",
+							uuid = "7f801478-1c6e-dc3d-9649-2303409d7c3b",
+							variableIsHover = true,
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							category = "Filter",
+							conditions = 
+							{
+								
+								{
+									"f3ae4f63-3069-da03-a3ae-9415201bad3f",
+									true,
+								},
+								
+								{
+									"8e2d2fae-7593-be32-864f-9bebda9d9ea7",
+									true,
+								},
+							},
+							filterTargetSubtype = "Bottom-most Partylist",
+							filterTargetType = "DPS",
+							uuid = "25e8f65d-9cf3-2779-b608-bed99377c7da",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							buffID = 3548,
+							category = "Party",
+							partyTargetType = "Detection Target",
+							uuid = "f3ae4f63-3069-da03-a3ae-9415201bad3f",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							category = "Party",
+							comparator = 2,
+							conditionType = 4,
+							inRangeValue = 30,
+							partyTargetType = "Detection Target",
+							uuid = "8e2d2fae-7593-be32-864f-9bebda9d9ea7",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							category = "Filter",
+							conditions = 
+							{
+								
+								{
+									"f3ae4f63-3069-da03-a3ae-9415201bad3f",
+									true,
+								},
+								
+								{
+									"8e2d2fae-7593-be32-864f-9bebda9d9ea7",
+									true,
+								},
+							},
+							filterTargetSubtype = "Bottom-most Partylist",
+							filterTargetType = "DPS",
+							uuid = "fdcd16a2-e8ff-f87f-ac14-ab6bc4c41fb6",
+							version = 2,
+						},
+						inheritedIndex = 5,
+					},
+				},
+				mechanicTime = 58.7,
+				name = "aurora debuff",
+				timeRange = true,
+				timelineIndex = 9,
+				timerEndOffset = -1.5,
+				timerOffset = -5,
+				timerStartOffset = -15,
+				uuid = "2d97e494-da1f-9bea-8165-9035d2a4e770",
+				version = 2,
+			},
+		},
+	},
 	[12] = 
 	{
 		
@@ -2188,6 +2307,122 @@ local tbl =
 			},
 			inheritedIndex = 7,
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"fdcd16a2-e8ff-f87f-ac14-ab6bc4c41fb6",
+									true,
+								},
+							},
+							endIfUsed = true,
+							gVar = "ACR_RikuGNB2_Tankbar_Aurora",
+							targetType = "Detection Target",
+							uuid = "7f801478-1c6e-dc3d-9649-2303409d7c3b",
+							variableIsHover = true,
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							category = "Filter",
+							conditions = 
+							{
+								
+								{
+									"f3ae4f63-3069-da03-a3ae-9415201bad3f",
+									true,
+								},
+								
+								{
+									"8e2d2fae-7593-be32-864f-9bebda9d9ea7",
+									true,
+								},
+							},
+							filterTargetSubtype = "Bottom-most Partylist",
+							filterTargetType = "DPS",
+							uuid = "25e8f65d-9cf3-2779-b608-bed99377c7da",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							buffID = 3548,
+							category = "Party",
+							partyTargetType = "Detection Target",
+							uuid = "f3ae4f63-3069-da03-a3ae-9415201bad3f",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							category = "Party",
+							comparator = 2,
+							conditionType = 4,
+							inRangeValue = 30,
+							partyTargetType = "Detection Target",
+							uuid = "8e2d2fae-7593-be32-864f-9bebda9d9ea7",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							category = "Filter",
+							conditions = 
+							{
+								
+								{
+									"f3ae4f63-3069-da03-a3ae-9415201bad3f",
+									true,
+								},
+								
+								{
+									"8e2d2fae-7593-be32-864f-9bebda9d9ea7",
+									true,
+								},
+							},
+							filterTargetSubtype = "Bottom-most Partylist",
+							filterTargetType = "DPS",
+							uuid = "fdcd16a2-e8ff-f87f-ac14-ab6bc4c41fb6",
+							version = 2,
+						},
+						inheritedIndex = 5,
+					},
+				},
+				mechanicTime = 375.3,
+				name = "aurora debuff",
+				timeRange = true,
+				timelineIndex = 65,
+				timerEndOffset = -1.5,
+				timerOffset = -5,
+				timerStartOffset = -15,
+				uuid = "4da5e6e6-ed60-fdbe-ab11-9bdef6a0f1b5",
+				version = 2,
+			},
+		},
 	},
 	[66] = 
 	{
@@ -2378,6 +2613,37 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Hotbar_LimitBreak",
+							uuid = "354680d9-2fd2-97ee-a7be-9a8704837298",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 446,
+				name = "LB",
+				timeRange = true,
+				timelineIndex = 80,
+				timerEndOffset = 3,
+				uuid = "e14aad8e-1afb-c86a-9420-9008560537f3",
+				version = 2,
+			},
+			inheritedIndex = 1,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
 							gVar = "ACR_RikuGNB2_Tankbar_HeartOfCorundumSelf",
 							uuid = "ec2740ac-9091-6352-a070-2423ae435709",
 							variableTogglesType = 3,
@@ -2398,37 +2664,6 @@ local tbl =
 				uuid = "1ad28d51-28a5-eb4e-b76d-8424727dafe3",
 				version = 2,
 			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuGNB2_Hotbar_LimitBreak",
-							uuid = "354680d9-2fd2-97ee-a7be-9a8704837298",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 446,
-				name = "LB",
-				timeRange = true,
-				timelineIndex = 80,
-				timerEndOffset = 3,
-				uuid = "e14aad8e-1afb-c86a-9420-9008560537f3",
-				version = 2,
-			},
-			inheritedIndex = 1,
 		},
 	},
 	[83] = 

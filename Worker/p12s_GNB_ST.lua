@@ -132,13 +132,12 @@ local tbl =
 						},
 					},
 				},
-				enabled = false,
 				mechanicTime = 11.1,
 				name = "xuechou",
 				timeRange = true,
 				timelineIndex = 2,
 				timerEndOffset = -1,
-				timerStartOffset = -4.5,
+				timerStartOffset = -4,
 				uuid = "c5dbed51-e848-f92f-bc3c-2740664fc9fd",
 				version = 2,
 			},
@@ -466,6 +465,74 @@ local tbl =
 				timerOffset = -15,
 				timerStartOffset = -14.5,
 				uuid = "b439ba62-510f-3257-a571-efd9d6669ab4",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"ba19ccc1-71fd-e8e3-921b-4fee6d047604",
+									true,
+								},
+								
+								{
+									"a39dee87-fd4e-6974-a182-bc036195bf34",
+									true,
+								},
+							},
+							gVar = "ACR_RikuGNB2_Tankbar_Reprisal",
+							uuid = "85d79229-6f9d-2587-a4b7-9ea11f5d85ce",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 2,
+							buffID = 1193,
+							uuid = "ba19ccc1-71fd-e8e3-921b-4fee6d047604",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							actionID = 7535,
+							category = "Self",
+							comparator = 2,
+							conditionType = 4,
+							uuid = "a39dee87-fd4e-6974-a182-bc036195bf34",
+							version = 2,
+						},
+					},
+				},
+				enabled = false,
+				mechanicTime = 88.8,
+				name = "xuechou",
+				timeRange = true,
+				timelineIndex = 16,
+				timerEndOffset = -1,
+				timerOffset = -9,
+				timerStartOffset = -9,
+				uuid = "2ed998e1-d033-cb6d-8926-20cdd3333cc1",
 				version = 2,
 			},
 		},
@@ -1844,6 +1911,9 @@ local tbl =
 				version = 2,
 			},
 		},
+	},
+	[52] = 
+	{
 		
 		{
 			data = 
@@ -1878,22 +1948,39 @@ local tbl =
 							category = "Self",
 							comparator = 2,
 							conditionType = 6,
-							gaugeValue = 1,
+							gaugeValue = 2,
 							uuid = "630feed7-999e-61fc-8216-1f071d1f1b20",
 							version = 2,
 						},
 					},
 				},
-				mechanicTime = 267.3,
-				name = "hold 1 bullet",
+				mechanicTime = 280,
+				name = "hold 2 bullet",
 				randomOffset = 10,
 				timeRange = true,
-				timelineIndex = 51,
-				timerEndOffset = 13,
+				timelineIndex = 52,
 				timerOffset = -5,
-				timerStartOffset = -5,
-				uuid = "4ff9e43c-d70e-b088-a783-a6bb43013d59",
+				timerStartOffset = -8,
+				uuid = "8139d6d5-7812-8385-b842-67d5dd280f13",
 				version = 2,
+			},
+			inheritedIndex = 6,
+		},
+	},
+	[53] = 
+	{
+		
+		{
+			data = 
+			{
+				name = "Draw Lasers",
+				uuid = "7418af71-bf71-0ac6-92a9-a358c6c8301c",
+				version = 2,
+			},
+			inheritedObjectUUID = "02ff7fbb-c048-b843-84b9-75a25454497f",
+			inheritedOverwrites = 
+			{
+				timerEndOffset = 22.799999237061,
 			},
 		},
 	},
@@ -2425,10 +2512,8 @@ local tbl =
 				},
 				mechanicTime = 381.2,
 				name = "HOC",
-				timeRange = true,
 				timelineIndex = 71,
 				timerEndOffset = -1,
-				timerOffset = -3.5,
 				timerStartOffset = -4,
 				uuid = "a925330c-7dd6-7c2d-b8aa-7dbb26daecc2",
 				version = 2,
@@ -4932,6 +5017,73 @@ local tbl =
 				timerOffset = -15,
 				timerStartOffset = -14,
 				uuid = "0e0c4b15-321e-2488-b29f-1f28d3bdb686",
+				version = 2,
+			},
+		},
+	},
+	[138] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_HoldOneJump",
+							uuid = "712f51a9-c2ad-fc41-a060-43b4fb72262e",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 1375.3,
+				name = "jump off",
+				timelineIndex = 138,
+				timerEndOffset = 10,
+				timerOffset = -2,
+				timerStartOffset = -10,
+				uuid = "3b4e818d-39ec-fc12-a607-19f0cace069a",
+				version = 2,
+			},
+		},
+	},
+	[144] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_HoldOneJump",
+							gVarValue = 2,
+							uuid = "712f51a9-c2ad-fc41-a060-43b4fb72262e",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 1390.3,
+				name = "jump on",
+				timelineIndex = 144,
+				timerEndOffset = 10,
+				timerOffset = 1.5,
+				timerStartOffset = -10,
+				uuid = "60ce8b0f-29a8-7c9b-87d6-9dd4f4f57171",
 				version = 2,
 			},
 		},
