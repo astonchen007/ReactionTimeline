@@ -2508,6 +2508,7 @@ local tbl =
 				conditions = 
 				{
 				},
+				enabled = false,
 				mechanicTime = 438.6,
 				name = "cd off",
 				timelineIndex = 105,
@@ -2539,6 +2540,7 @@ local tbl =
 				conditions = 
 				{
 				},
+				enabled = false,
 				mechanicTime = 461.8,
 				name = "cd on",
 				timelineIndex = 113,

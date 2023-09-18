@@ -464,6 +464,40 @@ local tbl =
 			},
 		},
 	},
+	[16] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Tankbar_NascentFlashLowest",
+							uuid = "3b6bcab1-526a-35c9-8276-64fb3189d842",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 81.1,
+				name = "yongmeng low",
+				timeRange = true,
+				timelineIndex = 16,
+				timerEndOffset = -1,
+				timerStartOffset = -8,
+				uuid = "7f25db38-2eac-de40-b475-05ef3e17ec9d",
+				version = 2,
+			},
+		},
+	},
 	[17] = 
 	{
 		
@@ -933,6 +967,68 @@ local tbl =
 				uuid = "0496917c-cce3-8ed8-87a0-b1ec77a7d5e7",
 				version = 2,
 			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Burn",
+							uuid = "712f51a9-c2ad-fc41-a060-43b4fb72262e",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 134,
+				name = "[WAR] burn",
+				timelineIndex = 25,
+				timerEndOffset = 8,
+				timerOffset = 3,
+				timerStartOffset = 4,
+				uuid = "a4d87d0a-215a-fef1-8796-c7b11ffab22e",
+				version = 2,
+			},
+			inheritedIndex = 7,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Burn",
+							uuid = "712f51a9-c2ad-fc41-a060-43b4fb72262e",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 134,
+				name = "[WAR] burn off",
+				timelineIndex = 25,
+				timerEndOffset = 8,
+				timerOffset = 8,
+				timerStartOffset = 4,
+				uuid = "628e09a2-e10e-ef70-a90a-888b69bd497c",
+				version = 2,
+			},
+			inheritedIndex = 7,
 		},
 	},
 	[35] = 
@@ -1717,10 +1813,75 @@ local tbl =
 				timelineIndex = 68,
 				timerEndOffset = 10,
 				timerOffset = -4,
-				timerStartOffset = -6,
+				timerStartOffset = -9,
 				uuid = "511887f6-9b62-001b-ad69-d2318101ff80",
 				version = 2,
 			},
+		},
+	},
+	[69] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Burn",
+							uuid = "712f51a9-c2ad-fc41-a060-43b4fb72262e",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 266.2,
+				name = "[WAR] burn",
+				timelineIndex = 69,
+				timerEndOffset = 8,
+				timerOffset = 1,
+				timerStartOffset = 4,
+				uuid = "5fb5fbf8-2140-55a6-85a4-d2287bca0749",
+				version = 2,
+			},
+			inheritedIndex = 7,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Burn",
+							uuid = "712f51a9-c2ad-fc41-a060-43b4fb72262e",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 266.2,
+				name = "[WAR] burn off",
+				timelineIndex = 69,
+				timerEndOffset = 8,
+				timerOffset = 8,
+				timerStartOffset = 4,
+				uuid = "fbb2672b-9692-4319-b485-b082e5447deb",
+				version = 2,
+			},
+			inheritedIndex = 7,
 		},
 	},
 	[71] = 
@@ -1861,6 +2022,170 @@ local tbl =
 				uuid = "d296db49-c0de-a2e7-a913-9d278744f24f",
 				version = 2,
 			},
+		},
+	},
+	[77] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"f0ad3845-f69b-9e34-80c5-78fc4fb7e3c5",
+									true,
+								},
+							},
+							gVar = "ACR_RikuWAR2_Tankbar_ShakeItOff",
+							uuid = "712f51a9-c2ad-fc41-a060-43b4fb72262e",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							actionCDValue = 1,
+							actionID = 7388,
+							category = "Self",
+							comparator = 2,
+							conditionType = 4,
+							uuid = "f0ad3845-f69b-9e34-80c5-78fc4fb7e3c5",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							category = "Party",
+							comparator = 2,
+							conditionType = 4,
+							inRangeValue = 30,
+							minTargetPercent = true,
+							partyTargetNumber = 100,
+							partyTargetSubType = "Number",
+							uuid = "0431a591-7801-17e7-b3c8-7bf4cf9b0315",
+							version = 2,
+						},
+					},
+				},
+				enabled = false,
+				mechanicTime = 309.7,
+				name = "[WAR] baituo",
+				timeRange = true,
+				timelineIndex = 77,
+				timerEndOffset = 10,
+				timerOffset = -4,
+				timerStartOffset = -6,
+				uuid = "481cd061-7f31-c9ee-86a5-5452b6dc2d07",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Tankbar_NascentFlashLowest",
+							uuid = "3b6bcab1-526a-35c9-8276-64fb3189d842",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 309.7,
+				name = "yongmeng low",
+				timeRange = true,
+				timelineIndex = 77,
+				timerEndOffset = 1,
+				timerStartOffset = -3,
+				uuid = "1b6b67fa-4808-98ce-8107-7b9318824071",
+				version = 2,
+			},
+		},
+	},
+	[83] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Tomahawk",
+							uuid = "d7b18eb1-4322-4884-9b29-e7334156a41c",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 332.5,
+				name = "range on",
+				timelineIndex = 83,
+				uuid = "05293ff8-bf59-1a7c-b090-f2c3fff851c4",
+				version = 2,
+			},
+			inheritedIndex = 1,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Hotbar_Sprint",
+							uuid = "d7b18eb1-4322-4884-9b29-e7334156a41c",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 332.5,
+				name = "ijpao",
+				timelineIndex = 83,
+				timerOffset = 2,
+				uuid = "1b2384c8-e38f-841c-8972-8a76aa5c347c",
+				version = 2,
+			},
+			inheritedIndex = 1,
 		},
 	},
 	[87] = 
@@ -2588,6 +2913,40 @@ local tbl =
 				timerEndOffset = -0.5,
 				timerStartOffset = -9.5,
 				uuid = "19fc0fbc-5eaa-8533-8512-f921505102e7",
+				version = 2,
+			},
+		},
+	},
+	[116] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Tankbar_NascentFlashLowest",
+							uuid = "3b6bcab1-526a-35c9-8276-64fb3189d842",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 471.4,
+				name = "yongmeng low",
+				timeRange = true,
+				timelineIndex = 116,
+				timerEndOffset = 1,
+				timerStartOffset = -6,
+				uuid = "956396d2-8d92-21fb-93c5-2cbdef34f454",
 				version = 2,
 			},
 		},

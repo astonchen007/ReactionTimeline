@@ -2600,6 +2600,41 @@ local tbl =
 			},
 		},
 	},
+	[79] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Tankbar_HeartOfCorundumSelf",
+							uuid = "ec2740ac-9091-6352-a070-2423ae435709",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 444.3,
+				name = "HOC Self",
+				timeRange = true,
+				timelineIndex = 79,
+				timerEndOffset = -0.5,
+				timerOffset = -9,
+				timerStartOffset = -8,
+				uuid = "fc50cdf9-5147-233a-86d0-5dac118492c1",
+				version = 2,
+			},
+		},
+	},
 	[80] = 
 	{
 		
@@ -2628,42 +2663,11 @@ local tbl =
 				timeRange = true,
 				timelineIndex = 80,
 				timerEndOffset = 3,
+				timerStartOffset = -0.5,
 				uuid = "e14aad8e-1afb-c86a-9420-9008560537f3",
 				version = 2,
 			},
 			inheritedIndex = 1,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuGNB2_Tankbar_HeartOfCorundumSelf",
-							uuid = "ec2740ac-9091-6352-a070-2423ae435709",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 446,
-				name = "HOC Self",
-				timeRange = true,
-				timelineIndex = 80,
-				timerEndOffset = -0.5,
-				timerOffset = -9,
-				timerStartOffset = -8,
-				uuid = "1ad28d51-28a5-eb4e-b76d-8424727dafe3",
-				version = 2,
-			},
 		},
 	},
 	[83] = 

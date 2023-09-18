@@ -132,12 +132,13 @@ local tbl =
 						},
 					},
 				},
+				enabled = false,
 				mechanicTime = 11.1,
 				name = "xuechou",
 				timeRange = true,
 				timelineIndex = 2,
 				timerEndOffset = -1,
-				timerStartOffset = -4,
+				timerStartOffset = -5,
 				uuid = "c5dbed51-e848-f92f-bc3c-2740664fc9fd",
 				version = 2,
 			},
@@ -217,6 +218,7 @@ local tbl =
 						inheritedIndex = 1,
 					},
 				},
+				enabled = false,
 				mechanicTime = 24.3,
 				name = "dunzi",
 				timeRange = true,
@@ -393,6 +395,61 @@ local tbl =
 			},
 		},
 	},
+	[10] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							actionID = 3629,
+							conditions = 
+							{
+								
+								{
+									"ec2ebf89-eedf-9e55-9d47-6f61c31ca7d1",
+									true,
+								},
+							},
+							gVar = "ACR_RikuGNB2_Hotbar_RoyalGuard",
+							uuid = "56c36ae2-ffa8-c3e3-a5c9-89213db40f26",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 2,
+							buffID = 1833,
+							category = "Self",
+							uuid = "ec2ebf89-eedf-9e55-9d47-6f61c31ca7d1",
+							version = 2,
+						},
+						inheritedIndex = 1,
+					},
+				},
+				mechanicTime = 57.3,
+				name = "dunzi",
+				timeRange = true,
+				timelineIndex = 10,
+				timerEndOffset = 7.5,
+				timerStartOffset = -3,
+				uuid = "391c5f2b-e994-2673-b71e-8a9beb012328",
+				version = 2,
+			},
+		},
+	},
 	[16] = 
 	{
 		
@@ -457,6 +514,7 @@ local tbl =
 						},
 					},
 				},
+				enabled = false,
 				mechanicTime = 88.8,
 				name = "HOL",
 				randomOffset = -1,
@@ -524,7 +582,6 @@ local tbl =
 						},
 					},
 				},
-				enabled = false,
 				mechanicTime = 88.8,
 				name = "xuechou",
 				timeRange = true,
@@ -637,6 +694,74 @@ local tbl =
 				timerOffset = -3,
 				timerStartOffset = -4.5,
 				uuid = "34d4c996-7028-9f25-89a9-85fa93ff7fe3",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"ba19ccc1-71fd-e8e3-921b-4fee6d047604",
+									true,
+								},
+								
+								{
+									"a39dee87-fd4e-6974-a182-bc036195bf34",
+									true,
+								},
+							},
+							gVar = "ACR_RikuGNB2_Tankbar_Reprisal",
+							uuid = "85d79229-6f9d-2587-a4b7-9ea11f5d85ce",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 2,
+							buffID = 1193,
+							uuid = "ba19ccc1-71fd-e8e3-921b-4fee6d047604",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							actionID = 7535,
+							category = "Self",
+							comparator = 2,
+							conditionType = 4,
+							uuid = "a39dee87-fd4e-6974-a182-bc036195bf34",
+							version = 2,
+						},
+					},
+				},
+				enabled = false,
+				mechanicTime = 97,
+				name = "xuechou",
+				timeRange = true,
+				timelineIndex = 17,
+				timerEndOffset = -1,
+				timerOffset = -9,
+				timerStartOffset = -10,
+				uuid = "19cc3fe7-fc02-c4de-b3fd-e19720e1099c",
 				version = 2,
 			},
 		},
@@ -806,7 +931,7 @@ local tbl =
 				timelineIndex = 18,
 				timerEndOffset = -2,
 				timerOffset = -15,
-				timerStartOffset = -19.5,
+				timerStartOffset = -12,
 				uuid = "63940d5f-dcaf-a981-95c4-1be473e092d8",
 				version = 2,
 			},
@@ -868,13 +993,12 @@ local tbl =
 						},
 					},
 				},
-				enabled = false,
 				mechanicTime = 100,
 				name = "xuechou",
 				timeRange = true,
 				timelineIndex = 18,
 				timerEndOffset = -4,
-				timerStartOffset = -9.5,
+				timerStartOffset = -10,
 				uuid = "0683c8b7-df43-5f8b-b365-c114d9ba3ab3",
 				version = 2,
 			},
@@ -930,17 +1054,17 @@ local tbl =
 							{
 								
 								{
-									"ba19ccc1-71fd-e8e3-921b-4fee6d047604",
+									"cb812518-acc8-aa33-9a2f-8867613e1b18",
 									true,
 								},
 								
 								{
-									"a39dee87-fd4e-6974-a182-bc036195bf34",
+									"383bf8a7-ad92-1565-9ca8-50a4d8e263ae",
 									true,
 								},
 							},
-							gVar = "ACR_RikuGNB2_Tankbar_Reprisal",
-							uuid = "85d79229-6f9d-2587-a4b7-9ea11f5d85ce",
+							gVar = "ACR_RikuGNB2_Tankbar_HeartOfLight",
+							uuid = "c589d305-82e0-033c-818f-78ca9c517fdb",
 							variableTogglesType = 3,
 							version = 2,
 						},
@@ -952,9 +1076,14 @@ local tbl =
 					{
 						data = 
 						{
-							buffCheckType = 2,
-							buffID = 1193,
-							uuid = "ba19ccc1-71fd-e8e3-921b-4fee6d047604",
+							category = "Party",
+							comparator = 2,
+							conditionType = 4,
+							inRangeValue = 30,
+							minTargetPercent = true,
+							partyTargetNumber = 100,
+							partyTargetSubType = "Number",
+							uuid = "cb812518-acc8-aa33-9a2f-8867613e1b18",
 							version = 2,
 						},
 					},
@@ -962,22 +1091,24 @@ local tbl =
 					{
 						data = 
 						{
-							actionID = 7535,
+							actionCDValue = 1,
+							actionID = 16160,
 							category = "Self",
 							comparator = 2,
 							conditionType = 4,
-							uuid = "a39dee87-fd4e-6974-a182-bc036195bf34",
+							uuid = "383bf8a7-ad92-1565-9ca8-50a4d8e263ae",
 							version = 2,
 						},
 					},
 				},
 				mechanicTime = 134.3,
-				name = "xuechou",
-				timeRange = true,
+				name = "HOL",
+				randomOffset = -1,
 				timelineIndex = 22,
-				timerEndOffset = -1,
-				timerStartOffset = -9,
-				uuid = "3f52190e-25a4-8fe8-914c-9cecd3ef2738",
+				timerEndOffset = -13,
+				timerOffset = -10,
+				timerStartOffset = -14.5,
+				uuid = "81ce6c68-9200-9413-930d-b62f1f31d83a",
 				version = 2,
 			},
 		},
@@ -1011,7 +1142,7 @@ local tbl =
 				timelineIndex = 23,
 				timerEndOffset = 5,
 				timerOffset = 3.5,
-				timerStartOffset = -4,
+				timerStartOffset = -15,
 				uuid = "600145f5-6707-15fc-bd16-233fb6d2b7ef",
 				version = 2,
 			},
@@ -1225,88 +1356,13 @@ local tbl =
 						},
 					},
 				},
-				enabled = false,
 				mechanicTime = 178.8,
 				name = "xuechou",
 				timeRange = true,
 				timelineIndex = 35,
-				timerEndOffset = -7,
-				timerStartOffset = -10,
+				timerEndOffset = -1.5,
+				timerStartOffset = -9.5,
 				uuid = "08d7a15c-9575-354e-9d13-d89e9f7c4fe1",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"cb812518-acc8-aa33-9a2f-8867613e1b18",
-									true,
-								},
-								
-								{
-									"b824ab08-2f3b-a0bd-a508-e131aa1f56eb",
-									true,
-								},
-							},
-							gVar = "ACR_RikuGNB2_Tankbar_HeartOfLight",
-							uuid = "c589d305-82e0-033c-818f-78ca9c517fdb",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							category = "Party",
-							comparator = 2,
-							conditionType = 4,
-							inRangeValue = 30,
-							minTargetPercent = true,
-							partyTargetNumber = 100,
-							partyTargetSubType = "Number",
-							uuid = "cb812518-acc8-aa33-9a2f-8867613e1b18",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							actionCDValue = 1,
-							actionID = 16160,
-							category = "Self",
-							comparator = 2,
-							conditionType = 4,
-							uuid = "b824ab08-2f3b-a0bd-a508-e131aa1f56eb",
-							version = 2,
-						},
-					},
-				},
-				mechanicTime = 178.8,
-				name = "HOL",
-				randomOffset = -12,
-				timeRange = true,
-				timelineIndex = 35,
-				timerEndOffset = -1,
-				timerOffset = -15,
-				timerStartOffset = -14.5,
-				uuid = "27d7819f-8785-2f2c-b294-11b382db8f48",
 				version = 2,
 			},
 		},
@@ -1901,6 +1957,7 @@ local tbl =
 						},
 					},
 				},
+				enabled = false,
 				mechanicTime = 267.3,
 				name = "xuechou",
 				timeRange = true,
@@ -1948,19 +2005,19 @@ local tbl =
 							category = "Self",
 							comparator = 2,
 							conditionType = 6,
-							gaugeValue = 2,
+							gaugeValue = 1,
 							uuid = "630feed7-999e-61fc-8216-1f071d1f1b20",
 							version = 2,
 						},
 					},
 				},
 				mechanicTime = 280,
-				name = "hold 2 bullet",
+				name = "hold from 1 bullet",
 				randomOffset = 10,
 				timeRange = true,
 				timelineIndex = 52,
 				timerOffset = -5,
-				timerStartOffset = -8,
+				timerStartOffset = -16,
 				uuid = "8139d6d5-7812-8385-b842-67d5dd280f13",
 				version = 2,
 			},
@@ -2238,6 +2295,14 @@ local tbl =
 						data = 
 						{
 							actionID = 25758,
+							conditions = 
+							{
+								
+								{
+									"b7465239-3962-2e8a-96e7-141e56a05cb5",
+									true,
+								},
+							},
 							endIfUsed = true,
 							gVar = "ACR_RikuGNB2_Tankbar_HeartOfCorundumSelf",
 							targetType = "Ranged Physical DPS",
@@ -2245,18 +2310,31 @@ local tbl =
 							variableTogglesType = 3,
 							version = 2,
 						},
+						inheritedIndex = 1,
 					},
 				},
 				conditions = 
 				{
+					
+					{
+						data = 
+						{
+							actionID = 25758,
+							category = "Self",
+							comparator = 2,
+							conditionType = 4,
+							uuid = "b7465239-3962-2e8a-96e7-141e56a05cb5",
+							version = 2,
+						},
+					},
 				},
 				mechanicTime = 333.2,
 				name = "HOC low",
 				timeRange = true,
 				timelineIndex = 64,
-				timerEndOffset = -0.5,
+				timerEndOffset = -1,
 				timerOffset = -9,
-				timerStartOffset = -4,
+				timerStartOffset = -10,
 				uuid = "e7b63d77-48de-e167-9edb-4bbde96b50ad",
 				version = 2,
 			},
@@ -2375,13 +2453,12 @@ local tbl =
 						},
 					},
 				},
-				enabled = false,
 				mechanicTime = 333.2,
 				name = "xuechou",
 				timeRange = true,
 				timelineIndex = 64,
 				timerEndOffset = -1,
-				timerStartOffset = -4.5,
+				timerStartOffset = -5,
 				uuid = "72d23199-2adb-8530-8631-2a2034980de9",
 				version = 2,
 			},
@@ -2715,8 +2792,8 @@ local tbl =
 				name = "xuechou",
 				timeRange = true,
 				timelineIndex = 72,
-				timerEndOffset = -7,
-				timerStartOffset = -10,
+				timerEndOffset = -1,
+				timerStartOffset = -5,
 				uuid = "78b4bbb2-0242-2111-a173-0c3ef0591a5b",
 				version = 2,
 			},
@@ -2791,10 +2868,11 @@ local tbl =
 				timelineIndex = 72,
 				timerEndOffset = -1,
 				timerOffset = -15,
-				timerStartOffset = -15,
+				timerStartOffset = -9,
 				uuid = "2ea4e9f8-d257-878d-9b91-abac4ab87e20",
 				version = 2,
 			},
+			inheritedIndex = 8,
 		},
 	},
 	[75] = 
@@ -2911,9 +2989,75 @@ local tbl =
 				name = "xuechou",
 				timeRange = true,
 				timelineIndex = 84,
-				timerEndOffset = -8,
+				timerEndOffset = -1,
 				timerStartOffset = -10,
 				uuid = "a0a24cfd-a739-ddcb-bb06-da3fb30c9a0a",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"c4893d81-4829-3345-9943-b4e4a5b4e70f",
+									true,
+								},
+							},
+							gVar = "ACR_RikuGNB2_Burn",
+							uuid = "c45a4983-f32b-9c46-a703-220ca0388ada",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"c4893d81-4829-3345-9943-b4e4a5b4e70f",
+									true,
+								},
+							},
+							gVar = "ACR_RikuGNB2_DumpGauge",
+							uuid = "102cdeef-0907-013f-94fd-3378de7c94a5",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							comparator = 2,
+							conditionType = 3,
+							hpValue = 3,
+							uuid = "c4893d81-4829-3345-9943-b4e4a5b4e70f",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 450.5,
+				name = "burn",
+				timeRange = true,
+				timelineIndex = 84,
+				timerStartOffset = -100,
+				uuid = "5ebb4238-4eba-5915-a183-923aec64f9ae",
 				version = 2,
 			},
 		},
