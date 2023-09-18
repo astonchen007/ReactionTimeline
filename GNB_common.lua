@@ -117,7 +117,7 @@ local tbl =
 						data = 
 						{
 							category = "Lua",
-							conditionLua = "return data.countdownDuration - TimeSince(data.countdownTime) <= 7000 + data.targetDelay",
+							conditionLua = "return data.countdownDuration - TimeSince(data.countdownTime) <= 14000 + data.targetDelay",
 							name = "speed time",
 							uuid = "a75dee82-a2bd-6203-a53b-2cf650241992",
 							version = 2,
@@ -174,35 +174,22 @@ local tbl =
 	{
 		data = 
 		{
+			name = "Use Healing",
+			uuid = "bdb0ce72-3d36-3f40-b2b2-15a27f4569ad",
+			version = 2,
+		},
+		inheritedIndex = 31,
+		inheritedObjectUUID = "08f423cf-ea7d-c87a-b68f-b9cc1a4a2fcb",
+		inheritedOverwrites = 
+		{
+		},
+	},
+	
+	{
+		data = 
+		{
 			actions = 
 			{
-				
-				{
-					data = 
-					{
-						aType = "Misc",
-						conditions = 
-						{
-							
-							{
-								"92778625-98f6-caa8-b8d7-7c19b5028d62",
-								true,
-							},
-							
-							{
-								"66da4c43-73f4-6ee8-9c15-0477b9e8fe3b",
-								true,
-							},
-						},
-						ignoreWeaveRules = true,
-						name = "pot",
-						potType = 4,
-						usePot = true,
-						uuid = "1832f8f4-e071-bfa6-97ed-ac09136be7e9",
-						version = 2,
-					},
-					inheritedIndex = 1,
-				},
 				
 				{
 					data = 
@@ -419,7 +406,7 @@ local tbl =
 							},
 							
 							{
-								"7d96ad09-3f70-b430-a5bc-999aed7e45f0",
+								"a7408635-d32a-5f25-81fb-04d7971c122d",
 								true,
 							},
 						},
