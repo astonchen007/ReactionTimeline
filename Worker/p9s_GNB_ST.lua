@@ -83,7 +83,9 @@ local tbl =
 				name = "Stance Open",
 				timeRange = true,
 				timelineIndex = 4,
-				timerStartOffset = -5,
+				timerEndOffset = 15,
+				timerOffset = 1,
+				timerStartOffset = 1,
 				uuid = "1aef9376-3390-6e88-8bf3-a923764eac08",
 				version = 2,
 			},
@@ -203,7 +205,6 @@ local tbl =
 						},
 					},
 				},
-				enabled = false,
 				mechanicTime = 47.9,
 				name = "tiaoxin",
 				timeRange = true,
@@ -238,7 +239,6 @@ local tbl =
 				conditions = 
 				{
 				},
-				enabled = false,
 				mechanicTime = 50.2,
 				name = "Rampart",
 				timeRange = true,
@@ -271,7 +271,6 @@ local tbl =
 				conditions = 
 				{
 				},
-				enabled = false,
 				mechanicTime = 50.2,
 				name = "HOC ot",
 				timeRange = true,
@@ -304,7 +303,6 @@ local tbl =
 				conditions = 
 				{
 				},
-				enabled = false,
 				mechanicTime = 50.2,
 				name = "Nebula",
 				timeRange = true,
@@ -336,7 +334,6 @@ local tbl =
 				conditions = 
 				{
 				},
-				enabled = false,
 				mechanicTime = 50.2,
 				name = "Camo",
 				timeRange = true,
@@ -410,7 +407,6 @@ local tbl =
 						},
 					},
 				},
-				enabled = false,
 				eventType = 2,
 				mechanicTime = 50.2,
 				name = "tuibi",
@@ -444,7 +440,6 @@ local tbl =
 				conditions = 
 				{
 				},
-				enabled = false,
 				eventType = 2,
 				mechanicTime = 50.2,
 				name = "tuibi e",
@@ -495,6 +490,7 @@ local tbl =
 				conditions = 
 				{
 				},
+				enabled = false,
 				mechanicTime = 50.2,
 				name = "wudi",
 				timeRange = true,
@@ -938,6 +934,60 @@ local tbl =
 				version = 2,
 			},
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"b047d48c-90c7-df79-a518-8e3823cf0365",
+									true,
+								},
+							},
+							gVar = "ACR_RikuGNB2_Tankbar_HeartOfLight",
+							uuid = "06859353-eeb4-72dc-9b76-1fcda64815ba",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							actionCDValue = 1,
+							actionID = 16160,
+							category = "Self",
+							comparator = 2,
+							conditionType = 4,
+							uuid = "b047d48c-90c7-df79-a518-8e3823cf0365",
+							version = 2,
+						},
+					},
+				},
+				enabled = false,
+				mechanicTime = 168.7,
+				name = "HoL",
+				timeRange = true,
+				timelineIndex = 35,
+				timerEndOffset = -7,
+				timerOffset = -15,
+				timerStartOffset = -14.5,
+				uuid = "1c0b2db8-f9fb-c96c-9443-635d99384c57",
+				version = 2,
+			},
+		},
 	},
 	[36] = 
 	{
@@ -1274,8 +1324,40 @@ local tbl =
 				timeRange = true,
 				timelineIndex = 37,
 				timerEndOffset = 10,
-				timerStartOffset = -10,
+				timerStartOffset = -3,
 				uuid = "33ee4663-1351-9879-8d07-8349f23b1259",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							actionID = 18,
+							gVar = "ACR_RikuGNB2_Hotbar_ShirkOT",
+							uuid = "70f049fa-7e36-6da8-adab-d784d8c80289",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				eventType = 2,
+				mechanicTime = 187.1,
+				name = "tuibi e",
+				timelineIndex = 37,
+				timerEndOffset = 10,
+				timerStartOffset = -10,
+				uuid = "4a260d72-ee09-4d4d-b1a5-2d083d85d4c8",
 				version = 2,
 			},
 		},
@@ -1584,7 +1666,7 @@ local tbl =
 				timeRange = true,
 				timelineIndex = 44,
 				timerOffset = -5,
-				timerStartOffset = -10,
+				timerStartOffset = -12,
 				uuid = "dcc32f99-2be2-8b5b-98dc-7483d0748e78",
 				version = 2,
 			},
@@ -1617,6 +1699,38 @@ local tbl =
 				timerOffset = 1,
 				timerStartOffset = -10,
 				uuid = "6e4b05fc-e925-d2c8-bf3a-d996582a5d89",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 25758,
+							targetSubType = "Lowest HP",
+							targetType = "Party",
+							uuid = "09a530ad-a10e-734b-994f-825ee215aa4a",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				enabled = false,
+				mechanicTime = 233.6,
+				name = "HoC Lowest",
+				timelineIndex = 44,
+				timerEndOffset = -4,
+				timerOffset = 1,
+				timerStartOffset = -10,
+				uuid = "5f6a8e03-0764-3e08-be84-458dfbf73738",
 				version = 2,
 			},
 		},
@@ -1687,6 +1801,41 @@ local tbl =
 			},
 		},
 	},
+	[66] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 25758,
+							ignoreWeaveRules = true,
+							targetSubType = "Lowest HP",
+							targetType = "Party",
+							uuid = "09a530ad-a10e-734b-994f-825ee215aa4a",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 258.1,
+				name = "HoC Lowest",
+				timelineIndex = 66,
+				timerEndOffset = -4,
+				timerOffset = -1,
+				timerStartOffset = -10,
+				uuid = "f0a9802b-2976-b4f9-9d2e-62e064a56156",
+				version = 2,
+			},
+		},
+	},
 	[71] = 
 	{
 		
@@ -1710,6 +1859,7 @@ local tbl =
 				conditions = 
 				{
 				},
+				enabled = false,
 				mechanicTime = 272.2,
 				name = "HoL",
 				timelineIndex = 71,
@@ -1785,6 +1935,41 @@ local tbl =
 				timerEndOffset = -0.5,
 				timerStartOffset = -9,
 				uuid = "50980d99-d705-4ead-a3b7-e0319cd07a9c",
+				version = 2,
+			},
+		},
+	},
+	[77] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Tankbar_HeartOfLight",
+							uuid = "06859353-eeb4-72dc-9b76-1fcda64815ba",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 309.7,
+				name = "HoL",
+				timeRange = true,
+				timelineIndex = 77,
+				timerEndOffset = -1,
+				timerOffset = -15,
+				timerStartOffset = -10,
+				uuid = "13cf952b-e0ee-de59-9b1d-62f37ed61546",
 				version = 2,
 			},
 		},
@@ -2145,11 +2330,11 @@ local tbl =
 				{
 				},
 				mechanicTime = 396.4,
-				name = "HOC self",
-				randomOffset = -0.5,
+				name = "HOC ot",
+				randomOffset = -1,
 				timelineIndex = 94,
 				timerEndOffset = -4,
-				timerOffset = -4,
+				timerOffset = -8,
 				timerStartOffset = -8,
 				uuid = "6aa522a8-e807-8cb7-9f6e-00453d34dcd1",
 				version = 2,
