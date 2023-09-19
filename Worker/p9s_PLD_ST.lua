@@ -126,6 +126,34 @@ local tbl =
 			},
 			inheritedIndex = 1,
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuPLD2_Potion",
+							gVarValue = 2,
+							uuid = "3543ebfe-ac82-f165-a479-17292e0eb861",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 12.2,
+				name = "pot off",
+				timelineIndex = 3,
+				uuid = "765fd3ae-fc89-f7b5-a243-5a2363cf967e",
+				version = 2,
+			},
+		},
 	},
 	[4] = 
 	{
@@ -1053,7 +1081,7 @@ local tbl =
 				timelineIndex = 36,
 				timerEndOffset = -0.5,
 				timerOffset = -4,
-				timerStartOffset = -10,
+				timerStartOffset = -7,
 				uuid = "bcfeb09b-1b01-066e-9623-0168eb0ef484",
 				version = 2,
 			},
@@ -1580,6 +1608,7 @@ local tbl =
 				conditions = 
 				{
 				},
+				enabled = false,
 				mechanicTime = 258.1,
 				name = "FOF slow",
 				timelineIndex = 66,
@@ -1608,6 +1637,7 @@ local tbl =
 				conditions = 
 				{
 				},
+				enabled = false,
 				mechanicTime = 258.1,
 				name = "FOF quick",
 				timelineIndex = 66,
@@ -1815,6 +1845,7 @@ local tbl =
 						},
 					},
 				},
+				enabled = false,
 				mechanicTime = 272.2,
 				name = "xuechou",
 				randomOffset = -2,
@@ -1824,6 +1855,83 @@ local tbl =
 				timerOffset = -4,
 				timerStartOffset = -4,
 				uuid = "19c31773-82db-d2bb-9686-5acc8a3302d0",
+				version = 2,
+			},
+			inheritedIndex = 9,
+		},
+	},
+	[75] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"d5ec3754-94a3-5a56-ae4c-c2de34fbe846",
+									true,
+								},
+								
+								{
+									"181d4c76-f403-a406-9a72-09fbc675cb7c",
+									true,
+								},
+							},
+							gVar = "ACR_RikuPLD2_Tankbar_Reprisal",
+							uuid = "ca04861a-78e9-86d8-95be-2fe66ebc8697",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 2,
+							buffID = 1193,
+							buffIDList = 
+							{
+								1193,
+							},
+							uuid = "d5ec3754-94a3-5a56-ae4c-c2de34fbe846",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							actionCDValue = 1,
+							actionID = 7535,
+							category = "Self",
+							comparator = 2,
+							conditionType = 4,
+							uuid = "181d4c76-f403-a406-9a72-09fbc675cb7c",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 297,
+				name = "xuechou",
+				randomOffset = -2,
+				timeRange = true,
+				timelineIndex = 75,
+				timerEndOffset = -1,
+				timerOffset = -4,
+				timerStartOffset = -9,
+				uuid = "8a285d68-1998-29b2-9e70-42ef7253c9a1",
 				version = 2,
 			},
 			inheritedIndex = 9,
@@ -1899,6 +2007,36 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 2,
+		},
+	},
+	[89] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuPLD2_Potion",
+							uuid = "3543ebfe-ac82-f165-a479-17292e0eb861",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 368.9,
+				name = "pot on",
+				timelineIndex = 89,
+				uuid = "ddd88e68-ef30-0586-8605-89b0bdd13619",
+				version = 2,
+			},
 		},
 	},
 	[91] = 
