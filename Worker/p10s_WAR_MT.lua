@@ -1204,7 +1204,7 @@ local tbl =
 				{
 				},
 				mechanicTime = 144.2,
-				name = "[WAR] sprint",
+				name = "[WAR] jipao",
 				timelineIndex = 24,
 				timerEndOffset = 10,
 				timerOffset = -3,
@@ -2585,7 +2585,7 @@ local tbl =
 				{
 				},
 				mechanicTime = 308.9,
-				name = "[WAR] sprint",
+				name = "[WAR] jipao",
 				timelineIndex = 49,
 				timerEndOffset = 10,
 				timerOffset = -3,
@@ -2788,6 +2788,42 @@ local tbl =
 			},
 		},
 	},
+	[59] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							endIfUsed = true,
+							gVar = "ACR_RikuWAR2_Hotbar_Onslaught",
+							uuid = "ebdf0ffd-390b-62e7-b35b-7bccc6e515cc",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 344.7,
+				name = "[WAR] Dash",
+				timelineIndex = 59,
+				timerEndOffset = 20,
+				timerOffset = -1,
+				timerStartOffset = -20,
+				uuid = "402da11b-d85c-1e3d-9cdf-0e8a6a3f5c1d",
+				version = 2,
+			},
+			inheritedIndex = 25,
+		},
+	},
 	[60] = 
 	{
 		
@@ -2914,7 +2950,7 @@ local tbl =
 				name = "[WAR] jump on",
 				timelineIndex = 60,
 				timerEndOffset = 10,
-				timerOffset = 20,
+				timerOffset = 10,
 				timerStartOffset = -10,
 				uuid = "d2f39452-a183-7a2c-a0bd-83f667145260",
 				version = 2,
@@ -3692,6 +3728,7 @@ local tbl =
 				timeRange = true,
 				timelineIndex = 80,
 				timerEndOffset = 5,
+				timerStartOffset = -1.5,
 				uuid = "0c7546c2-a7d1-791a-b516-43374814f0fc",
 				version = 2,
 			},

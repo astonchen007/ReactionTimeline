@@ -273,6 +273,7 @@ local tbl =
 				conditions = 
 				{
 				},
+				enabled = false,
 				mechanicTime = 50.2,
 				name = "wudi",
 				timeRange = true,
@@ -1406,80 +1407,6 @@ local tbl =
 							{
 								
 								{
-									"6306534e-ca53-f0aa-892c-4aff055ad299",
-									true,
-								},
-								
-								{
-									"408d3ce6-e0a5-d100-8555-51652e1e8a77",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightOT",
-							targetSubType = "Lowest HP",
-							targetType = "Party",
-							uuid = "dc80b42b-1302-3431-8938-5136836e3148",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							actionID = 7393,
-							category = "Self",
-							comparator = 2,
-							conditionType = 4,
-							uuid = "6306534e-ca53-f0aa-892c-4aff055ad299",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							buffCheckType = 2,
-							buffID = 2682,
-							category = "Self",
-							conditionType = 3,
-							mpType = 2,
-							mpValue = 3000,
-							uuid = "408d3ce6-e0a5-d100-8555-51652e1e8a77",
-							version = 2,
-						},
-					},
-				},
-				mechanicTime = 187.1,
-				name = "tbn ot",
-				timeRange = true,
-				timelineIndex = 37,
-				timerEndOffset = -1,
-				timerOffset = -6,
-				timerStartOffset = -6.5,
-				uuid = "7618ef32-81e1-3df4-8bc2-1078a43eec2d",
-				version = 2,
-			},
-			inheritedIndex = 3,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
 									"f0ad3845-f69b-9e34-80c5-78fc4fb7e3c5",
 									true,
 								},
@@ -1579,6 +1506,80 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 10,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"6306534e-ca53-f0aa-892c-4aff055ad299",
+									true,
+								},
+								
+								{
+									"408d3ce6-e0a5-d100-8555-51652e1e8a77",
+									true,
+								},
+							},
+							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightOT",
+							targetSubType = "Lowest HP",
+							targetType = "Party",
+							uuid = "dc80b42b-1302-3431-8938-5136836e3148",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 7393,
+							category = "Self",
+							comparator = 2,
+							conditionType = 4,
+							uuid = "6306534e-ca53-f0aa-892c-4aff055ad299",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							buffCheckType = 2,
+							buffID = 2682,
+							category = "Self",
+							conditionType = 3,
+							mpType = 2,
+							mpValue = 3000,
+							uuid = "408d3ce6-e0a5-d100-8555-51652e1e8a77",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 187.1,
+				name = "tbn ot",
+				timeRange = true,
+				timelineIndex = 37,
+				timerEndOffset = -1,
+				timerOffset = -6,
+				timerStartOffset = -6.5,
+				uuid = "7618ef32-81e1-3df4-8bc2-1078a43eec2d",
+				version = 2,
+			},
+			inheritedIndex = 3,
 		},
 	},
 	[41] = 

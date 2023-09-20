@@ -70,59 +70,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							actionID = 3629,
-							conditions = 
-							{
-								
-								{
-									"ec2ebf89-eedf-9e55-9d47-6f61c31ca7d1",
-									true,
-								},
-							},
-							gVar = "ACR_RikuPLD2_Hotbar_IronWill",
-							uuid = "56c36ae2-ffa8-c3e3-a5c9-89213db40f26",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							buffCheckType = 2,
-							buffID = 79,
-							category = "Self",
-							uuid = "ec2ebf89-eedf-9e55-9d47-6f61c31ca7d1",
-							version = 2,
-						},
-						inheritedIndex = 1,
-					},
-				},
-				mechanicTime = 16,
-				name = "dunzi",
-				timeRange = true,
-				timelineIndex = 3,
-				timerEndOffset = 5,
-				timerOffset = -7,
-				timerStartOffset = -5,
-				uuid = "0c1e1af9-0f86-641b-a98d-2e035fabf5da",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
 							conditions = 
 							{
 								
@@ -168,6 +115,7 @@ local tbl =
 						},
 					},
 				},
+				enabled = false,
 				mechanicTime = 16,
 				name = "xuechou",
 				timeRange = true,
@@ -175,6 +123,62 @@ local tbl =
 				timerEndOffset = -0.5,
 				timerStartOffset = -4,
 				uuid = "6de04c62-90c7-00e2-9ac6-72287226c0ed",
+				version = 2,
+			},
+		},
+	},
+	[4] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							actionID = 3629,
+							conditions = 
+							{
+								
+								{
+									"ec2ebf89-eedf-9e55-9d47-6f61c31ca7d1",
+									true,
+								},
+							},
+							gVar = "ACR_RikuPLD2_Hotbar_IronWill",
+							uuid = "56c36ae2-ffa8-c3e3-a5c9-89213db40f26",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 2,
+							buffID = 79,
+							category = "Self",
+							dequeueIfLuaFalse = true,
+							uuid = "ec2ebf89-eedf-9e55-9d47-6f61c31ca7d1",
+							version = 2,
+						},
+						inheritedIndex = 1,
+					},
+				},
+				mechanicTime = 26.1,
+				name = "dunzi",
+				timeRange = true,
+				timelineIndex = 4,
+				timerOffset = -7,
+				timerStartOffset = -15,
+				uuid = "01a3379f-5f99-9557-8cc5-ebd7b378bcdd",
 				version = 2,
 			},
 		},
@@ -294,60 +298,6 @@ local tbl =
 				uuid = "11203887-6798-1254-b7f3-e04afb8484c3",
 				version = 2,
 			},
-		},
-	},
-	[6] = 
-	{
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							actionID = 3629,
-							conditions = 
-							{
-								
-								{
-									"ec2ebf89-eedf-9e55-9d47-6f61c31ca7d1",
-									true,
-								},
-							},
-							gVar = "ACR_RikuPLD2_Hotbar_IronWill",
-							uuid = "56c36ae2-ffa8-c3e3-a5c9-89213db40f26",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							buffID = 79,
-							category = "Self",
-							uuid = "ec2ebf89-eedf-9e55-9d47-6f61c31ca7d1",
-							version = 2,
-						},
-						inheritedIndex = 1,
-					},
-				},
-				mechanicTime = 42.3,
-				name = "dunzi off",
-				timelineIndex = 6,
-				timerEndOffset = 10,
-				timerStartOffset = -8,
-				uuid = "e3f91cb3-9146-45c3-a2c5-1ac6b2cd6fba",
-				version = 2,
-			},
-			inheritedIndex = 3,
 		},
 	},
 	[7] = 
@@ -2008,7 +1958,7 @@ local tbl =
 				timeRange = true,
 				timelineIndex = 48,
 				timerOffset = -7,
-				timerStartOffset = -15,
+				timerStartOffset = -20,
 				uuid = "62e287e9-2352-a1bb-ba48-9e0c4fa4901a",
 				version = 2,
 			},
@@ -3197,6 +3147,62 @@ local tbl =
 				timerOffset = -9,
 				timerStartOffset = -4,
 				uuid = "25201ead-2997-b831-8b75-930b93da82f6",
+				version = 2,
+			},
+			inheritedIndex = 3,
+		},
+	},
+	[73] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"f5e1ebaf-c20c-3327-8308-90e941110e34",
+									true,
+								},
+							},
+							gVar = "ACR_RikuPLD2_Tankbar_InterventionOT",
+							uuid = "ec2740ac-9091-6352-a070-2423ae435709",
+							variableTogglesType = 3,
+							version = 2,
+						},
+						inheritedIndex = 1,
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							category = "Self",
+							conditionType = 6,
+							gaugeValue = 50,
+							uuid = "f5e1ebaf-c20c-3327-8308-90e941110e34",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 547.4,
+				name = "ganyu ot",
+				timeRange = true,
+				timelineIndex = 73,
+				timerEndOffset = 3,
+				timerOffset = -9,
+				timerStartOffset = -2,
+				uuid = "ba0af8a0-438c-0a20-8c05-4d9434129a81",
 				version = 2,
 			},
 			inheritedIndex = 3,

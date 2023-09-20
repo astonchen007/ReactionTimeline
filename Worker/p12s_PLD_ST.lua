@@ -3947,6 +3947,56 @@ local tbl =
 			},
 			inheritedIndex = 5,
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"c14e92f0-1440-3070-bfa6-f445f56d4112",
+									true,
+								},
+							},
+							gVar = "ACR_RikuPLD2_Hotbar_ShirkOT",
+							uuid = "1056e123-b871-0a47-93d2-a6e1243581ce",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							conditionType = 4,
+							enmityValue = 50,
+							uuid = "c14e92f0-1440-3070-bfa6-f445f56d4112",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 1159.2,
+				name = "tuibi",
+				timeRange = true,
+				timelineIndex = 108,
+				timerEndOffset = 15,
+				timerOffset = 5,
+				timerStartOffset = 2,
+				uuid = "1d0df194-e1cc-bebc-97a4-953305437151",
+				version = 2,
+			},
+		},
 	},
 	[109] = 
 	{

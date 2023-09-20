@@ -577,6 +577,92 @@ local tbl =
 				version = 2,
 			},
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"5006dd08-132e-ac63-9d06-91dcb6aa0069",
+									true,
+								},
+								
+								{
+									"f0ad3845-f69b-9e34-80c5-78fc4fb7e3c5",
+									true,
+								},
+								
+								{
+									"13ecd75c-12b1-1e85-b608-1e3352f504aa",
+									true,
+								},
+							},
+							gVar = "ACR_RikuWAR2_Tankbar_Reprisal",
+							uuid = "712f51a9-c2ad-fc41-a060-43b4fb72262e",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 2,
+							buffID = 1193,
+							uuid = "5006dd08-132e-ac63-9d06-91dcb6aa0069",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							actionCDValue = 1,
+							actionID = 7535,
+							category = "Self",
+							comparator = 2,
+							conditionType = 4,
+							uuid = "f0ad3845-f69b-9e34-80c5-78fc4fb7e3c5",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							category = "Self",
+							conditionType = 12,
+							localMapIDList = 
+							{
+								1154,
+							},
+							uuid = "13ecd75c-12b1-1e85-b608-1e3352f504aa",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 41.9,
+				name = "[WAR] xuechou",
+				timelineIndex = 9,
+				timerEndOffset = -1.5,
+				timerOffset = -1,
+				timerStartOffset = -10,
+				uuid = "d7d994ec-e59d-79fa-9a8b-c99f6c6d2c2e",
+				version = 2,
+			},
+		},
 	},
 	[10] = 
 	{
@@ -4135,6 +4221,7 @@ local tbl =
 				uuid = "98613894-d7ae-da58-97de-66573c8e1b4b",
 				version = 2,
 			},
+			inheritedIndex = 1,
 		},
 	},
 	[62] = 
@@ -6622,6 +6709,72 @@ local tbl =
 			},
 		},
 	},
+	[101] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Burn",
+							uuid = "712f51a9-c2ad-fc41-a060-43b4fb72262e",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 1133.4,
+				name = "[WAR] burn",
+				timelineIndex = 101,
+				timerEndOffset = -0.5,
+				timerOffset = 3,
+				timerStartOffset = -6,
+				uuid = "0d1abd8b-bb35-0ba5-96da-67fb39230896",
+				version = 2,
+			},
+			inheritedIndex = 2,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Burn",
+							gVarValue = 2,
+							uuid = "712f51a9-c2ad-fc41-a060-43b4fb72262e",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 1133.4,
+				name = "[WAR] burn off",
+				timelineIndex = 101,
+				timerEndOffset = -0.5,
+				timerOffset = 12.5,
+				timerStartOffset = -6,
+				uuid = "72425afa-3057-93fb-9c5d-a78f18a87058",
+				version = 2,
+			},
+			inheritedIndex = 6,
+		},
+	},
 	[102] = 
 	{
 		
@@ -7655,6 +7808,61 @@ local tbl =
 			},
 		},
 	},
+	[120] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"a7db37ff-6c97-378b-a5d8-3667c6def160",
+									true,
+								},
+							},
+							gVar = "ACR_RikuWAR2_Tankbar_ThrillOfBattle",
+							uuid = "6f974e85-fb90-fca9-94c0-c0c6c173d746",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							actionCDValue = 1,
+							actionID = 40,
+							category = "Self",
+							comparator = 2,
+							conditionType = 4,
+							uuid = "a7db37ff-6c97-378b-a5d8-3667c6def160",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 1265,
+				name = "[WAR] zhanli",
+				timelineIndex = 120,
+				timerEndOffset = -1.5,
+				timerOffset = 0.5,
+				timerStartOffset = -8,
+				uuid = "5f09bcb1-d710-2832-8b63-5968561eff61",
+				version = 2,
+			},
+		},
+	},
 	[123] = 
 	{
 		
@@ -7961,6 +8169,8 @@ local tbl =
 							},
 							gVar = "ACR_RikuWAR2_Tankbar_NascentFlashLowest",
 							ignoreWeaveRules = true,
+							targetSubType = "Lowest HP",
+							targetType = "Ranged DPS",
 							uuid = "6f974e85-fb90-fca9-94c0-c0c6c173d746",
 							variableTogglesType = 3,
 							version = 2,
@@ -7986,8 +8196,9 @@ local tbl =
 				},
 				mechanicTime = 1296.8,
 				name = "[WAR] xueqi",
+				timeRange = true,
 				timelineIndex = 124,
-				timerEndOffset = -0.5,
+				timerEndOffset = 8,
 				timerOffset = -4,
 				uuid = "7a38ebff-4972-fbc1-a4e6-739c75d1de3a",
 				version = 2,
@@ -8505,6 +8716,117 @@ local tbl =
 			},
 		},
 	},
+	[141] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"a7db37ff-6c97-378b-a5d8-3667c6def160",
+									true,
+								},
+							},
+							gVar = "ACR_RikuWAR2_Tankbar_ThrillOfBattle",
+							uuid = "6f974e85-fb90-fca9-94c0-c0c6c173d746",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							actionCDValue = 1,
+							actionID = 40,
+							category = "Self",
+							comparator = 2,
+							conditionType = 4,
+							uuid = "a7db37ff-6c97-378b-a5d8-3667c6def160",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 1384.3,
+				name = "[WAR] zhanli",
+				timeRange = true,
+				timelineIndex = 141,
+				timerEndOffset = 10,
+				timerOffset = -3,
+				timerStartOffset = -2,
+				uuid = "ad778610-0b71-25f5-9423-436c36d7dc23",
+				version = 2,
+			},
+		},
+	},
+	[144] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"f0ad3845-f69b-9e34-80c5-78fc4fb7e3c5",
+									true,
+								},
+							},
+							gVar = "ACR_RikuWAR2_Tankbar_Equilibrium",
+							uuid = "712f51a9-c2ad-fc41-a060-43b4fb72262e",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							actionCDValue = 1,
+							actionID = 3552,
+							category = "Self",
+							comparator = 2,
+							conditionType = 4,
+							uuid = "f0ad3845-f69b-9e34-80c5-78fc4fb7e3c5",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 1390.3,
+				name = "[WAR] tairan",
+				timelineIndex = 144,
+				timerEndOffset = 10,
+				timerOffset = 0.5,
+				timerStartOffset = 1,
+				uuid = "80aa4839-b203-289e-8947-a234f04ec1ec",
+				version = 2,
+			},
+		},
+	},
 	[148] = 
 	{
 		
@@ -8623,7 +8945,7 @@ local tbl =
 				name = "[WAR] xuechou p2",
 				timeRange = true,
 				timelineIndex = 148,
-				timerEndOffset = -0.5,
+				timerEndOffset = -1,
 				timerStartOffset = -6,
 				uuid = "7190a369-6530-f44f-9509-7f25a8ff358a",
 				version = 2,
@@ -8699,6 +9021,61 @@ local tbl =
 				version = 2,
 			},
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							actionID = 25751,
+							conditions = 
+							{
+								
+								{
+									"a7db37ff-6c97-378b-a5d8-3667c6def160",
+									true,
+								},
+							},
+							gVar = "ACR_RikuWAR2_Tankbar_NascentFlashLowest",
+							ignoreWeaveRules = true,
+							uuid = "6f974e85-fb90-fca9-94c0-c0c6c173d746",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							actionCDValue = 1,
+							actionID = 25751,
+							category = "Self",
+							comparator = 2,
+							conditionType = 4,
+							uuid = "a7db37ff-6c97-378b-a5d8-3667c6def160",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 1425.9,
+				name = "[WAR] xueqi lowest",
+				timeRange = true,
+				timelineIndex = 149,
+				timerEndOffset = 10,
+				timerOffset = -3,
+				timerStartOffset = -2,
+				uuid = "d4760fa3-280d-a376-8a61-65d360870251",
+				version = 2,
+			},
+		},
 	},
 	[151] = 
 	{
@@ -8732,6 +9109,64 @@ local tbl =
 				timerOffset = 3,
 				timerStartOffset = -20,
 				uuid = "ad5cfb1c-42fe-c427-bed7-40481f8e7074",
+				version = 2,
+			},
+		},
+	},
+	[152] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							actionID = 25751,
+							conditions = 
+							{
+								
+								{
+									"a7db37ff-6c97-378b-a5d8-3667c6def160",
+									true,
+								},
+							},
+							gVar = "ACR_RikuWAR2_Tankbar_NascentFlashLowest",
+							ignoreWeaveRules = true,
+							uuid = "6f974e85-fb90-fca9-94c0-c0c6c173d746",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							actionCDValue = 1,
+							actionID = 25751,
+							category = "Self",
+							comparator = 2,
+							conditionType = 4,
+							uuid = "a7db37ff-6c97-378b-a5d8-3667c6def160",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 1453.2,
+				name = "[WAR] xueqi lowest",
+				timeRange = true,
+				timelineIndex = 152,
+				timerEndOffset = 5,
+				timerOffset = -3,
+				timerStartOffset = -2,
+				uuid = "83ada080-8b4e-3b13-85a6-8ebd84337212",
 				version = 2,
 			},
 		},
@@ -8873,8 +9308,8 @@ local tbl =
 				name = "[WAR] xuechou p2",
 				timeRange = true,
 				timelineIndex = 158,
-				timerEndOffset = -0.5,
-				timerStartOffset = -6,
+				timerEndOffset = -1,
+				timerStartOffset = -9,
 				uuid = "7103263d-08ce-720a-98ad-332c9d36665c",
 				version = 2,
 			},
@@ -8946,6 +9381,139 @@ local tbl =
 				timerEndOffset = -0.5,
 				timerStartOffset = -6,
 				uuid = "4112ac28-0718-34ab-a146-7f783a2b00f8",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"f0ad3845-f69b-9e34-80c5-78fc4fb7e3c5",
+									true,
+								},
+								
+								{
+									"0431a591-7801-17e7-b3c8-7bf4cf9b0315",
+									true,
+								},
+							},
+							gVar = "ACR_RikuWAR2_Tankbar_ShakeItOff",
+							uuid = "712f51a9-c2ad-fc41-a060-43b4fb72262e",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							actionCDValue = 1,
+							actionID = 7388,
+							category = "Self",
+							comparator = 2,
+							conditionType = 4,
+							uuid = "f0ad3845-f69b-9e34-80c5-78fc4fb7e3c5",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							category = "Party",
+							comparator = 2,
+							conditionType = 4,
+							inRangeValue = 29.5,
+							minTargetPercent = true,
+							partyTargetNumber = 100,
+							partyTargetSubType = "Number",
+							uuid = "0431a591-7801-17e7-b3c8-7bf4cf9b0315",
+							version = 2,
+						},
+						inheritedIndex = 2,
+					},
+				},
+				mechanicTime = 1490.1,
+				name = "[WAR] baituo p2",
+				timeRange = true,
+				timelineIndex = 159,
+				timerEndOffset = 10,
+				timerOffset = -4,
+				timerStartOffset = 1,
+				uuid = "1d9103bc-5ae7-d20b-91d5-84dd8e1ba8d5",
+				version = 2,
+			},
+			inheritedIndex = 2,
+		},
+	},
+	[160] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							actionID = 25751,
+							conditions = 
+							{
+								
+								{
+									"a7db37ff-6c97-378b-a5d8-3667c6def160",
+									true,
+								},
+							},
+							gVar = "ACR_RikuWAR2_Tankbar_NascentFlashLowest",
+							ignoreWeaveRules = true,
+							uuid = "6f974e85-fb90-fca9-94c0-c0c6c173d746",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							actionCDValue = 1,
+							actionID = 25751,
+							category = "Self",
+							comparator = 2,
+							conditionType = 4,
+							uuid = "a7db37ff-6c97-378b-a5d8-3667c6def160",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 1494.6,
+				name = "[WAR] xueqi lowest",
+				timeRange = true,
+				timelineIndex = 160,
+				timerEndOffset = 5,
+				timerOffset = -3,
+				timerStartOffset = -7,
+				uuid = "a5bb23db-30d7-6ce8-b9f7-47b1f7ed1fff",
 				version = 2,
 			},
 		},

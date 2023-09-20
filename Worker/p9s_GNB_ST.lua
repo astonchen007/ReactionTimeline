@@ -38,6 +38,36 @@ local tbl =
 				version = 2,
 			},
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Potion",
+							gVarValue = 2,
+							uuid = "712f51a9-c2ad-fc41-a060-43b4fb72262e",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 12.2,
+				name = "pot off",
+				timelineIndex = 3,
+				timerEndOffset = -0.5,
+				timerStartOffset = -8,
+				uuid = "9bd9630e-5324-2266-898d-0f210b969149",
+				version = 2,
+			},
+		},
 	},
 	[4] = 
 	{
@@ -2145,6 +2175,38 @@ local tbl =
 				timerOffset = -15,
 				timerStartOffset = -14.5,
 				uuid = "d2e9e07a-e640-eda2-b946-acf6783663d9",
+				version = 2,
+			},
+		},
+	},
+	[90] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Potion",
+							uuid = "712f51a9-c2ad-fc41-a060-43b4fb72262e",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 374.2,
+				name = "pot on",
+				timelineIndex = 90,
+				timerEndOffset = -0.5,
+				timerStartOffset = -8,
+				uuid = "b00c6160-4e29-0033-9b01-a8b65ea095cb",
 				version = 2,
 			},
 		},
