@@ -153,7 +153,7 @@ local tbl =
 						data = 
 						{
 							category = "Lua",
-							conditionLua = "return data.countdownDuration - TimeSince(data.countdownTime) <= 7000 + data.targetDelay",
+							conditionLua = "return data.countdownDuration - TimeSince(data.countdownTime) <= 13000 + data.targetDelay",
 							name = "speed time",
 							uuid = "7673c5bf-701b-ef9b-965c-2178f05b5cba",
 							version = 2,
@@ -654,6 +654,25 @@ local tbl =
 						version = 2,
 					},
 				},
+				
+				{
+					data = 
+					{
+						aType = "Variable",
+						conditions = 
+						{
+							
+							{
+								"07b90d65-36c8-db4f-934e-e4f2fe272db8",
+								true,
+							},
+						},
+						gVar = "ACR_RikuWAR2_Hotbar_Sprint",
+						uuid = "4f2c43e8-7ce5-4ce1-9c83-83ca63e54e16",
+						variableTogglesType = 2,
+						version = 2,
+					},
+				},
 			},
 			conditions = 
 			{
@@ -823,7 +842,7 @@ local tbl =
 						category = "Event",
 						comparator = 2,
 						eventCountdownTime = 13,
-						name = "~12s",
+						name = "~13s",
 						uuid = "07b90d65-36c8-db4f-934e-e4f2fe272db8",
 						version = 2,
 					},
