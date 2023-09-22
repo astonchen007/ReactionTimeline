@@ -31,6 +31,16 @@ local tbl =
 							{
 								
 								{
+									position = 3,
+									type = "add",
+									value = 
+									{
+										"1a3f8e9e-b3a3-b89b-8e54-0b090b206b50",
+										true,
+									},
+								},
+								
+								{
 									type = "remove",
 									value = 
 									{
@@ -62,7 +72,7 @@ local tbl =
 						data = 
 						{
 							category = "Lua",
-							conditionLua = "return data.countdownDuration - TimeSince(data.countdownTime) <= 14000 + data.targetDelay",
+							conditionLua = "return data.countdownDuration - TimeSince(data.countdownTime) <= 13000 + data.targetDelay",
 							name = "speed time",
 							uuid = "6eb86f75-1b4b-857a-b460-0627a5b34bcf",
 							version = 2,
@@ -123,6 +133,25 @@ local tbl =
 						},
 						gVar = "ACR_RikuPLD2_Hotbar_IronWill",
 						uuid = "1cc92f44-d82a-763e-9655-7bc5e75c1c84",
+						variableTogglesType = 2,
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						aType = "Variable",
+						conditions = 
+						{
+							
+							{
+								"07b90d65-36c8-db4f-934e-e4f2fe272db8",
+								true,
+							},
+						},
+						gVar = "ACR_RikuPLD2_Hotbar_Sprint",
+						uuid = "c03ff2b6-c665-801c-8335-a12db8da7192",
 						variableTogglesType = 2,
 						version = 2,
 					},
@@ -558,6 +587,7 @@ local tbl =
 							1152,
 							1154,
 							1122,
+							1157,
 						},
 						uuid = "9ed3dc38-5554-ec02-98bc-c14b294adec4",
 						version = 2,
@@ -610,6 +640,7 @@ local tbl =
 							1150,
 							1152,
 							1154,
+							1157,
 						},
 						uuid = "cd635c9e-a550-8b03-92da-828689619dce",
 						version = 2,
