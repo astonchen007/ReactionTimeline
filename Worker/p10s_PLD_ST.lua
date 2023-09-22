@@ -3207,7 +3207,7 @@ local tbl =
 				timelineIndex = 80,
 				timerEndOffset = 5,
 				timerOffset = -1.5,
-				timerStartOffset = -3,
+				timerStartOffset = -2.5,
 				uuid = "c2583728-54ea-55a2-b899-1da4d1693e15",
 				version = 2,
 			},
