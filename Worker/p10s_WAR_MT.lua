@@ -3731,13 +3731,13 @@ local tbl =
 				timelineIndex = 76,
 				timerEndOffset = 3,
 				timerOffset = -2,
-				timerStartOffset = -4.5,
+				timerStartOffset = -4,
 				uuid = "8ff5935d-a04b-d1c6-912c-4c5f2c2bab38",
 				version = 2,
 			},
 		},
 	},
-	[80] = 
+	[78] = 
 	{
 		
 		{
@@ -3779,17 +3779,20 @@ local tbl =
 						},
 					},
 				},
-				mechanicTime = 446,
+				mechanicTime = 442.6,
 				name = "TANK LB",
 				timeRange = true,
-				timelineIndex = 80,
-				timerEndOffset = 5,
-				timerStartOffset = -2.5,
-				uuid = "0c7546c2-a7d1-791a-b516-43374814f0fc",
+				timelineIndex = 78,
+				timerEndOffset = 7,
+				timerStartOffset = 1,
+				uuid = "55d0e99f-bfef-7606-ad4d-0d327fa78a7e",
 				version = 2,
 			},
 			inheritedIndex = 1,
 		},
+	},
+	[80] = 
+	{
 		
 		{
 			data = 

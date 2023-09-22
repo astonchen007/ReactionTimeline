@@ -3123,7 +3123,7 @@ local tbl =
 			inheritedIndex = 15,
 		},
 	},
-	[77] = 
+	[76] = 
 	{
 		
 		{
@@ -3166,19 +3166,19 @@ local tbl =
 						},
 					},
 				},
-				mechanicTime = 440.8,
+				mechanicTime = 438.8,
 				name = "dunzhen",
 				timeRange = true,
-				timelineIndex = 77,
+				timelineIndex = 76,
 				timerOffset = -8,
-				timerStartOffset = -5.5,
-				uuid = "2ddbb332-27f2-60c0-83a4-618e58d29b2d",
+				timerStartOffset = -4,
+				uuid = "0f9f37df-050c-ac8c-885b-b2d001dfc1a4",
 				version = 2,
 			},
 			inheritedIndex = 2,
 		},
 	},
-	[80] = 
+	[78] = 
 	{
 		
 		{
@@ -3201,18 +3201,21 @@ local tbl =
 				conditions = 
 				{
 				},
-				mechanicTime = 446,
+				mechanicTime = 442.6,
 				name = "LB",
 				timeRange = true,
-				timelineIndex = 80,
-				timerEndOffset = 5,
+				timelineIndex = 78,
+				timerEndOffset = 8,
 				timerOffset = -1.5,
-				timerStartOffset = -2.5,
-				uuid = "c2583728-54ea-55a2-b899-1da4d1693e15",
+				timerStartOffset = 1,
+				uuid = "22f9e058-af05-99c1-80b6-b6353faae9ea",
 				version = 2,
 			},
 			inheritedIndex = 1,
 		},
+	},
+	[80] = 
+	{
 		
 		{
 			data = 
@@ -3304,6 +3307,9 @@ local tbl =
 			},
 			inheritedIndex = 2,
 		},
+	},
+	[83] = 
+	{
 		
 		{
 			data = 
@@ -3320,6 +3326,11 @@ local tbl =
 								
 								{
 									"f5e1ebaf-c20c-3327-8308-90e941110e34",
+									true,
+								},
+								
+								{
+									"dbd04ebb-8f51-a630-8b3d-b8f0dc4e6270",
 									true,
 								},
 							},
@@ -3344,17 +3355,29 @@ local tbl =
 							version = 2,
 						},
 					},
+					
+					{
+						data = 
+						{
+							buffCheckType = 2,
+							buffID = 2674,
+							category = "Self",
+							uuid = "dbd04ebb-8f51-a630-8b3d-b8f0dc4e6270",
+							version = 2,
+						},
+					},
 				},
-				mechanicTime = 446,
+				mechanicTime = 450.1,
 				name = "dunzhen",
 				timeRange = true,
-				timelineIndex = 80,
-				timerEndOffset = 6,
+				timelineIndex = 83,
+				timerEndOffset = 2,
 				timerOffset = -8,
-				timerStartOffset = -5,
-				uuid = "17f57147-c5cb-527d-93ae-31e0227f21a9",
+				timerStartOffset = -5.5,
+				uuid = "9545eab3-b1b3-2a63-8267-b81c485a0da3",
 				version = 2,
 			},
+			inheritedIndex = 2,
 		},
 	},
 	[84] = 
@@ -3441,9 +3464,9 @@ local tbl =
 				randomOffset = -2,
 				timeRange = true,
 				timelineIndex = 84,
-				timerEndOffset = -1,
+				timerEndOffset = -5,
 				timerOffset = -4,
-				timerStartOffset = -10,
+				timerStartOffset = -11.5,
 				uuid = "0c8749b9-3b8b-30bb-a27d-4c50eb40d9b0",
 				version = 2,
 			},
@@ -3460,65 +3483,24 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"f5e1ebaf-c20c-3327-8308-90e941110e34",
-									true,
-								},
-								
-								{
-									"cdf001f9-a39a-7e86-8583-a44ec161d114",
-									true,
-								},
-							},
-							gVar = "ACR_RikuPLD2_Tankbar_HolySheltron",
-							uuid = "ec2740ac-9091-6352-a070-2423ae435709",
+							gVar = "ACR_RikuPLD2_Tankbar_PassageOfArms",
+							uuid = "ae7068f2-134d-ecde-baf4-13a18ff172c1",
 							variableTogglesType = 3,
 							version = 2,
 						},
-						inheritedIndex = 1,
 					},
 				},
 				conditions = 
 				{
-					
-					{
-						data = 
-						{
-							category = "Self",
-							conditionType = 6,
-							gaugeValue = 50,
-							uuid = "f5e1ebaf-c20c-3327-8308-90e941110e34",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							buffCheckType = 3,
-							buffDuration = 1,
-							buffID = 2674,
-							category = "Self",
-							comparator = 2,
-							uuid = "cdf001f9-a39a-7e86-8583-a44ec161d114",
-							version = 2,
-						},
-					},
 				},
+				enabled = false,
 				mechanicTime = 454,
-				name = "dunzhen",
-				timeRange = true,
+				name = "chibang",
 				timelineIndex = 84,
-				timerEndOffset = -1,
-				timerOffset = -8,
-				timerStartOffset = -10,
-				uuid = "8a519ea2-e8dc-1c49-8386-12f8a6f36117",
+				timerOffset = -2,
+				uuid = "deac06ab-cbe4-aa0e-8cfd-34ac38267fbc",
 				version = 2,
 			},
-			inheritedIndex = 2,
 		},
 		
 		{
@@ -3551,36 +3533,6 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 15,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuPLD2_Tankbar_PassageOfArms",
-							uuid = "ae7068f2-134d-ecde-baf4-13a18ff172c1",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				enabled = false,
-				mechanicTime = 454,
-				name = "chibang",
-				timelineIndex = 84,
-				timerOffset = -2,
-				uuid = "deac06ab-cbe4-aa0e-8cfd-34ac38267fbc",
-				version = 2,
-			},
 		},
 	},
 	[86] = 

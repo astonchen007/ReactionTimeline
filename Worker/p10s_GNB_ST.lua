@@ -2906,7 +2906,7 @@ local tbl =
 			},
 		},
 	},
-	[77] = 
+	[76] = 
 	{
 		
 		{
@@ -2929,17 +2929,20 @@ local tbl =
 				conditions = 
 				{
 				},
-				mechanicTime = 440.8,
+				mechanicTime = 438.8,
 				name = "HOC Self",
 				timeRange = true,
-				timelineIndex = 77,
+				timelineIndex = 76,
 				timerEndOffset = 1,
 				timerOffset = -9,
 				timerStartOffset = -4,
-				uuid = "4c3aaa9c-7f3f-d24c-ae88-ff8f3c10a8d5",
+				uuid = "7aa24c14-3d69-1254-928d-800041dd2be3",
 				version = 2,
 			},
 		},
+	},
+	[77] = 
+	{
 		
 		{
 			data = 
@@ -2975,7 +2978,7 @@ local tbl =
 			},
 		},
 	},
-	[80] = 
+	[78] = 
 	{
 		
 		{
@@ -2998,16 +3001,51 @@ local tbl =
 				conditions = 
 				{
 				},
-				mechanicTime = 446,
+				mechanicTime = 442.6,
 				name = "LB",
 				timeRange = true,
-				timelineIndex = 80,
-				timerEndOffset = 5,
-				timerStartOffset = -2.5,
-				uuid = "e14aad8e-1afb-c86a-9420-9008560537f3",
+				timelineIndex = 78,
+				timerEndOffset = 7,
+				timerStartOffset = 1,
+				uuid = "dacfbade-5a5e-e61c-9103-9261fb898e4d",
 				version = 2,
 			},
 			inheritedIndex = 1,
+		},
+	},
+	[80] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Tankbar_HeartOfCorundumSelf",
+							uuid = "ec2740ac-9091-6352-a070-2423ae435709",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 446,
+				name = "HOC Self",
+				timeRange = true,
+				timelineIndex = 80,
+				timerEndOffset = 1,
+				timerOffset = -9,
+				timerStartOffset = -8,
+				uuid = "d686457f-43c4-2031-9627-f1eb4221b301",
+				version = 2,
+			},
 		},
 		
 		{
@@ -3064,38 +3102,6 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 2,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuGNB2_Tankbar_HeartOfCorundumSelf",
-							uuid = "ec2740ac-9091-6352-a070-2423ae435709",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 446,
-				name = "HOC Self",
-				timeRange = true,
-				timelineIndex = 80,
-				timerEndOffset = 1,
-				timerOffset = -9,
-				timerStartOffset = -8,
-				uuid = "d686457f-43c4-2031-9627-f1eb4221b301",
-				version = 2,
-			},
 		},
 	},
 	[83] = 
@@ -3167,7 +3173,7 @@ local tbl =
 				timelineIndex = 84,
 				timerEndOffset = -1,
 				timerOffset = -4,
-				timerStartOffset = -9.5,
+				timerStartOffset = -11.5,
 				uuid = "dd2d02bc-aca1-8349-a1ed-e5178ff5df70",
 				version = 2,
 			},
