@@ -1615,6 +1615,58 @@ local tbl =
 				version = 2,
 			},
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"f0ad3845-f69b-9e34-80c5-78fc4fb7e3c5",
+									true,
+								},
+							},
+							gVar = "ACR_RikuWAR2_Tankbar_Vengeance",
+							uuid = "712f51a9-c2ad-fc41-a060-43b4fb72262e",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							actionCDValue = 1,
+							actionID = 44,
+							category = "Self",
+							comparator = 2,
+							conditionType = 4,
+							uuid = "f0ad3845-f69b-9e34-80c5-78fc4fb7e3c5",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 219.7,
+				name = "[WAR] fuchou",
+				timeRange = true,
+				timelineIndex = 35,
+				timerEndOffset = -1.5,
+				timerStartOffset = -15,
+				uuid = "b3ce5260-97ea-702c-a17d-054e80a8eda7",
+				version = 2,
+			},
+		},
 	},
 	[37] = 
 	{
@@ -3584,6 +3636,7 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
+							actionID = 25751,
 							conditions = 
 							{
 								
@@ -3592,7 +3645,8 @@ local tbl =
 									true,
 								},
 							},
-							gVar = "ACR_RikuWAR2_Tankbar_Rampart",
+							gVar = "ACR_RikuWAR2_Tankbar_Bloodwhetting",
+							ignoreWeaveRules = true,
 							uuid = "712f51a9-c2ad-fc41-a060-43b4fb72262e",
 							variableTogglesType = 3,
 							version = 2,
@@ -3606,7 +3660,7 @@ local tbl =
 						data = 
 						{
 							actionCDValue = 1,
-							actionID = 7531,
+							actionID = 3551,
 							category = "Self",
 							comparator = 2,
 							conditionType = 4,
@@ -3616,18 +3670,18 @@ local tbl =
 					},
 				},
 				mechanicTime = 438.8,
-				name = "[WAR] tiebi",
+				name = "[WAR] xueqi",
 				timeRange = true,
 				timelineIndex = 76,
-				timerEndOffset = 5,
+				timerEndOffset = 3,
+				timerOffset = -2,
 				timerStartOffset = -2,
-				uuid = "a07feb17-f6ba-c23b-ae1b-20445934acc7",
+				uuid = "8ff5935d-a04b-d1c6-912c-4c5f2c2bab38",
 				version = 2,
 			},
-			inheritedIndex = 14,
 		},
 	},
-	[78] = 
+	[77] = 
 	{
 		
 		{
@@ -3639,18 +3693,19 @@ local tbl =
 					{
 						data = 
 						{
-							aType = "Variable",
+							actionID = 44,
 							conditions = 
 							{
 								
 								{
-									"9e440278-b896-a312-a829-2a0c6e224c7f",
+									"f0ad3845-f69b-9e34-80c5-78fc4fb7e3c5",
 									true,
 								},
 							},
-							gVar = "ACR_RikuWAR2_Hotbar_LimitBreak",
-							uuid = "354680d9-2fd2-97ee-a7be-9a8704837298",
-							variableTogglesType = 2,
+							gVar = "ACR_RikuWAR2_Tankbar_Vengeance",
+							ignoreWeaveRules = true,
+							uuid = "712f51a9-c2ad-fc41-a060-43b4fb72262e",
+							variableTogglesType = 3,
 							version = 2,
 						},
 					},
@@ -3661,24 +3716,25 @@ local tbl =
 					{
 						data = 
 						{
-							buffCheckType = 2,
-							buffID = 1177,
+							actionCDValue = 1,
+							actionID = 44,
 							category = "Self",
-							uuid = "9e440278-b896-a312-a829-2a0c6e224c7f",
+							comparator = 2,
+							conditionType = 4,
+							uuid = "f0ad3845-f69b-9e34-80c5-78fc4fb7e3c5",
 							version = 2,
 						},
 					},
 				},
-				enabled = false,
-				mechanicTime = 442.6,
-				name = "TANK LB",
-				timeRange = true,
-				timelineIndex = 78,
-				timerEndOffset = 5,
-				uuid = "0975ae91-8902-f57c-8260-6dcc75249ff2",
+				mechanicTime = 440.8,
+				name = "[WAR] fuchou",
+				timelineIndex = 77,
+				timerEndOffset = -1.5,
+				timerOffset = -1.5,
+				timerStartOffset = -15,
+				uuid = "bb68f447-c060-f571-b9ed-f8666737204c",
 				version = 2,
 			},
-			inheritedIndex = 1,
 		},
 	},
 	[80] = 
@@ -3749,6 +3805,59 @@ local tbl =
 							{
 								
 								{
+									"f0ad3845-f69b-9e34-80c5-78fc4fb7e3c5",
+									true,
+								},
+							},
+							gVar = "ACR_RikuWAR2_Tankbar_Bloodwhetting",
+							uuid = "712f51a9-c2ad-fc41-a060-43b4fb72262e",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							actionCDValue = 1,
+							actionID = 3551,
+							category = "Self",
+							comparator = 2,
+							conditionType = 4,
+							uuid = "f0ad3845-f69b-9e34-80c5-78fc4fb7e3c5",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 446,
+				name = "[WAR] xueqi",
+				randomOffset = 3,
+				timeRange = true,
+				timelineIndex = 80,
+				timerOffset = -3,
+				timerStartOffset = -8,
+				uuid = "43c4d7bf-1af6-82d8-b18f-47039d57bef2",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
 									"5006dd08-132e-ac63-9d06-91dcb6aa0069",
 									true,
 								},
@@ -3791,67 +3900,13 @@ local tbl =
 						},
 					},
 				},
-				enabled = false,
 				mechanicTime = 446,
 				name = "[WAR] xuechou",
-				timelineIndex = 80,
-				timerEndOffset = -0.5,
-				timerOffset = -10,
-				timerStartOffset = -10,
-				uuid = "abc7c945-99d2-0acd-8027-28ba55e3afb8",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"f0ad3845-f69b-9e34-80c5-78fc4fb7e3c5",
-									true,
-								},
-							},
-							gVar = "ACR_RikuWAR2_Tankbar_Bloodwhetting",
-							uuid = "712f51a9-c2ad-fc41-a060-43b4fb72262e",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							actionCDValue = 1,
-							actionID = 3551,
-							category = "Self",
-							comparator = 2,
-							conditionType = 4,
-							uuid = "f0ad3845-f69b-9e34-80c5-78fc4fb7e3c5",
-							version = 2,
-						},
-					},
-				},
-				mechanicTime = 446,
-				name = "[WAR] xueqi",
-				randomOffset = 3,
 				timeRange = true,
 				timelineIndex = 80,
-				timerOffset = -3,
-				timerStartOffset = -8,
-				uuid = "43c4d7bf-1af6-82d8-b18f-47039d57bef2",
+				timerEndOffset = -4,
+				timerStartOffset = -9.5,
+				uuid = "5c05d219-6339-7d7f-9873-8b6888fb2400",
 				version = 2,
 			},
 		},
@@ -3875,111 +3930,6 @@ local tbl =
 	},
 	[84] = 
 	{
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"9e440278-b896-a312-a829-2a0c6e224c7f",
-									true,
-								},
-							},
-							endIfUsed = true,
-							gVar = "ACR_RikuWAR2_Hotbar_LimitBreak",
-							uuid = "354680d9-2fd2-97ee-a7be-9a8704837298",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							buffCheckType = 2,
-							buffID = 1177,
-							category = "Self",
-							uuid = "9e440278-b896-a312-a829-2a0c6e224c7f",
-							version = 2,
-						},
-					},
-				},
-				mechanicTime = 454,
-				name = "TANK LB",
-				timelineIndex = 84,
-				timerEndOffset = 5,
-				timerOffset = -8,
-				timerStartOffset = -8,
-				uuid = "4581dbac-b2e5-31cb-b889-ca652c2c2846",
-				version = 2,
-			},
-			inheritedIndex = 1,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"f0ad3845-f69b-9e34-80c5-78fc4fb7e3c5",
-									true,
-								},
-							},
-							gVar = "ACR_RikuWAR2_Tankbar_Rampart",
-							uuid = "712f51a9-c2ad-fc41-a060-43b4fb72262e",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							actionCDValue = 1,
-							actionID = 7531,
-							category = "Self",
-							comparator = 2,
-							conditionType = 4,
-							uuid = "f0ad3845-f69b-9e34-80c5-78fc4fb7e3c5",
-							version = 2,
-						},
-					},
-				},
-				mechanicTime = 454,
-				name = "[WAR] tiebi",
-				timeRange = true,
-				timelineIndex = 84,
-				timerEndOffset = -10,
-				timerStartOffset = -20,
-				uuid = "18fd0efe-96db-6933-9600-75b2c473fc77",
-				version = 2,
-			},
-			inheritedIndex = 14,
-		},
 		
 		{
 			data = 
@@ -4296,7 +4246,6 @@ local tbl =
 						},
 					},
 				},
-				enabled = false,
 				mechanicTime = 454,
 				name = "[WAR] fuchou",
 				timeRange = true,
@@ -4551,6 +4500,7 @@ local tbl =
 				timeRange = true,
 				timelineIndex = 88,
 				timerEndOffset = 5,
+				timerStartOffset = -4,
 				uuid = "cadd81ea-f66a-f2d3-8e8a-ecbb31bfc2e5",
 				version = 2,
 			},
@@ -4647,7 +4597,7 @@ local tbl =
 									true,
 								},
 							},
-							gVar = "ACR_RikuWAR2_Tankbar_Vengeance",
+							gVar = "ACR_RikuWAR2_Tankbar_Rampart",
 							uuid = "712f51a9-c2ad-fc41-a060-43b4fb72262e",
 							variableTogglesType = 3,
 							version = 2,
@@ -4661,7 +4611,7 @@ local tbl =
 						data = 
 						{
 							actionCDValue = 1,
-							actionID = 44,
+							actionID = 7531,
 							category = "Self",
 							comparator = 2,
 							conditionType = 4,
@@ -4671,14 +4621,15 @@ local tbl =
 					},
 				},
 				mechanicTime = 514,
-				name = "[WAR] fuchou",
+				name = "[WAR] tiebi",
 				timeRange = true,
 				timelineIndex = 90,
-				timerEndOffset = -1,
-				timerStartOffset = -7.5,
-				uuid = "e7d62a2a-8346-2509-9f12-715decb971d4",
+				timerEndOffset = -1.5,
+				timerStartOffset = -10,
+				uuid = "fdc353da-a178-955c-a4ad-2f6e2aea0aa5",
 				version = 2,
 			},
+			inheritedIndex = 1,
 		},
 		
 		{
