@@ -568,7 +568,7 @@ local tbl =
 				timelineIndex = 12,
 				timerEndOffset = 2,
 				timerOffset = -9,
-				timerStartOffset = -3.5,
+				timerStartOffset = -4,
 				uuid = "ab8e7c5e-3342-896a-a660-732b3a02a6db",
 				version = 2,
 			},
@@ -1460,29 +1460,22 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
+							actionID = 7533,
 							conditions = 
 							{
 								
 								{
-									"d5ec3754-94a3-5a56-ae4c-c2de34fbe846",
-									true,
-								},
-								
-								{
-									"c52ff8b0-2027-216c-af68-c0b0c93f0870",
-									true,
-								},
-								
-								{
-									"c9e3245a-c30a-e296-8739-a8f96d5f1878",
+									"4fba015f-4e65-294d-8574-3fc3d57a31a3",
 									true,
 								},
 							},
-							gVar = "ACR_RikuPLD2_Tankbar_Reprisal",
-							uuid = "ca04861a-78e9-86d8-95be-2fe66ebc8697",
-							variableTogglesType = 3,
+							gVar = "ACR_RikuPLD2_Hotbar_Provoke",
+							ignoreWeaveRules = true,
+							uuid = "2f032b8f-55f0-b329-a614-abf97cda0024",
+							variableTogglesType = 2,
 							version = 2,
 						},
+						inheritedIndex = 1,
 					},
 				},
 				conditions = 
@@ -1491,54 +1484,24 @@ local tbl =
 					{
 						data = 
 						{
-							buffCheckType = 2,
-							buffID = 1193,
-							buffIDList = 
-							{
-								1193,
-							},
-							uuid = "d5ec3754-94a3-5a56-ae4c-c2de34fbe846",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							comparator = 2,
-							conditionType = 6,
-							inRangeValue = 5,
-							uuid = "c9e3245a-c30a-e296-8739-a8f96d5f1878",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							actionCDValue = 1,
-							actionID = 7535,
-							category = "Self",
 							comparator = 2,
 							conditionType = 4,
-							uuid = "c52ff8b0-2027-216c-af68-c0b0c93f0870",
+							enmityValue = 99,
+							uuid = "4fba015f-4e65-294d-8574-3fc3d57a31a3",
 							version = 2,
 						},
 					},
 				},
 				enabled = false,
 				mechanicTime = 249.3,
-				name = "xuechou",
-				randomOffset = -2,
-				timeRange = true,
+				name = "tiaoxin",
 				timelineIndex = 40,
-				timerEndOffset = -1,
-				timerOffset = -4,
-				timerStartOffset = -4,
-				uuid = "72475141-9980-4ddd-bc4b-06fd3e4ca538",
+				timerEndOffset = 20,
+				timerOffset = 15,
+				timerStartOffset = 7,
+				uuid = "6a700fe9-d917-b0bd-a9d6-d8cf511157e8",
 				version = 2,
 			},
-			inheritedIndex = 8,
 		},
 		
 		{
@@ -1623,22 +1586,29 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							actionID = 7533,
 							conditions = 
 							{
 								
 								{
-									"4fba015f-4e65-294d-8574-3fc3d57a31a3",
+									"d5ec3754-94a3-5a56-ae4c-c2de34fbe846",
+									true,
+								},
+								
+								{
+									"c52ff8b0-2027-216c-af68-c0b0c93f0870",
+									true,
+								},
+								
+								{
+									"c9e3245a-c30a-e296-8739-a8f96d5f1878",
 									true,
 								},
 							},
-							gVar = "ACR_RikuPLD2_Hotbar_Provoke",
-							ignoreWeaveRules = true,
-							uuid = "2f032b8f-55f0-b329-a614-abf97cda0024",
-							variableTogglesType = 2,
+							gVar = "ACR_RikuPLD2_Tankbar_Reprisal",
+							uuid = "ca04861a-78e9-86d8-95be-2fe66ebc8697",
+							variableTogglesType = 3,
 							version = 2,
 						},
-						inheritedIndex = 1,
 					},
 				},
 				conditions = 
@@ -1647,24 +1617,54 @@ local tbl =
 					{
 						data = 
 						{
+							buffCheckType = 2,
+							buffID = 1193,
+							buffIDList = 
+							{
+								1193,
+							},
+							uuid = "d5ec3754-94a3-5a56-ae4c-c2de34fbe846",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							comparator = 2,
+							conditionType = 6,
+							inRangeValue = 5,
+							uuid = "c9e3245a-c30a-e296-8739-a8f96d5f1878",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							actionCDValue = 1,
+							actionID = 7535,
+							category = "Self",
 							comparator = 2,
 							conditionType = 4,
-							enmityValue = 99,
-							uuid = "4fba015f-4e65-294d-8574-3fc3d57a31a3",
+							uuid = "c52ff8b0-2027-216c-af68-c0b0c93f0870",
 							version = 2,
 						},
 					},
 				},
 				enabled = false,
 				mechanicTime = 249.3,
-				name = "tiaoxin",
+				name = "xuechou",
+				randomOffset = -2,
+				timeRange = true,
 				timelineIndex = 40,
-				timerEndOffset = 20,
-				timerOffset = 15,
-				timerStartOffset = 7,
-				uuid = "6a700fe9-d917-b0bd-a9d6-d8cf511157e8",
+				timerEndOffset = -1,
+				timerOffset = -4,
+				timerStartOffset = -4,
+				uuid = "72475141-9980-4ddd-bc4b-06fd3e4ca538",
 				version = 2,
 			},
+			inheritedIndex = 8,
 		},
 	},
 	[41] = 
@@ -2011,7 +2011,7 @@ local tbl =
 				timelineIndex = 43,
 				timerEndOffset = 2,
 				timerOffset = -9,
-				timerStartOffset = -3.5,
+				timerStartOffset = -4,
 				uuid = "dc073c7b-315e-ff0e-bbb6-fc8566d0179e",
 				version = 2,
 			},
@@ -2067,7 +2067,7 @@ local tbl =
 				timelineIndex = 44,
 				timerEndOffset = 2,
 				timerOffset = -9,
-				timerStartOffset = -3.5,
+				timerStartOffset = -4,
 				uuid = "e32ff870-7eb6-8b88-91e2-e5564ebb6425",
 				version = 2,
 			},
@@ -3089,9 +3089,6 @@ local tbl =
 			},
 			inheritedIndex = 2,
 		},
-	},
-	[77] = 
-	{
 		
 		{
 			data = 
@@ -3114,17 +3111,20 @@ local tbl =
 				conditions = 
 				{
 				},
-				mechanicTime = 440.8,
+				mechanicTime = 437.8,
 				name = "yujing",
-				timelineIndex = 77,
+				timelineIndex = 75,
 				timerEndOffset = -1,
-				timerOffset = -1,
+				timerOffset = 0.20000000298023,
 				timerStartOffset = -15,
-				uuid = "053d4031-964d-b014-be69-a1a2575ee43f",
+				uuid = "3bc8757e-2b52-c369-a17c-33b96c46a9ca",
 				version = 2,
 			},
 			inheritedIndex = 15,
 		},
+	},
+	[77] = 
+	{
 		
 		{
 			data = 
@@ -3170,9 +3170,8 @@ local tbl =
 				name = "dunzhen",
 				timeRange = true,
 				timelineIndex = 77,
-				timerEndOffset = 1,
 				timerOffset = -8,
-				timerStartOffset = -4,
+				timerStartOffset = -5.5,
 				uuid = "2ddbb332-27f2-60c0-83a4-618e58d29b2d",
 				version = 2,
 			},
@@ -3206,9 +3205,9 @@ local tbl =
 				name = "LB",
 				timeRange = true,
 				timelineIndex = 80,
-				timerEndOffset = 3,
+				timerEndOffset = 5,
 				timerOffset = -1.5,
-				timerStartOffset = -1.5,
+				timerStartOffset = -3,
 				uuid = "c2583728-54ea-55a2-b899-1da4d1693e15",
 				version = 2,
 			},
@@ -3303,7 +3302,7 @@ local tbl =
 				uuid = "7d71559c-05ed-ca56-954d-947e91c3d470",
 				version = 2,
 			},
-			inheritedIndex = 1,
+			inheritedIndex = 2,
 		},
 		
 		{
@@ -3346,12 +3345,13 @@ local tbl =
 						},
 					},
 				},
-				enabled = false,
 				mechanicTime = 446,
 				name = "dunzhen",
+				timeRange = true,
 				timelineIndex = 80,
+				timerEndOffset = 6,
 				timerOffset = -8,
-				timerStartOffset = -8,
+				timerStartOffset = -5,
 				uuid = "17f57147-c5cb-527d-93ae-31e0227f21a9",
 				version = 2,
 			},
@@ -3359,68 +3359,6 @@ local tbl =
 	},
 	[84] = 
 	{
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuPLD2_Tankbar_PassageOfArms",
-							uuid = "ae7068f2-134d-ecde-baf4-13a18ff172c1",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				enabled = false,
-				mechanicTime = 454,
-				name = "chibang",
-				timelineIndex = 84,
-				timerOffset = -2,
-				uuid = "deac06ab-cbe4-aa0e-8cfd-34ac38267fbc",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuPLD2_Tankbar_Sentinel",
-							uuid = "966dad27-f431-e932-b5dc-95ae0912a7df",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 454,
-				name = "yujing",
-				timeRange = true,
-				timelineIndex = 84,
-				timerEndOffset = -1,
-				timerStartOffset = -15,
-				uuid = "eae530a6-007d-949d-9f53-6e03faa885ea",
-				version = 2,
-			},
-			inheritedIndex = 15,
-		},
 		
 		{
 			data = 
@@ -3505,7 +3443,7 @@ local tbl =
 				timelineIndex = 84,
 				timerEndOffset = -1,
 				timerOffset = -4,
-				timerStartOffset = -9.5,
+				timerStartOffset = -10,
 				uuid = "0c8749b9-3b8b-30bb-a27d-4c50eb40d9b0",
 				version = 2,
 			},
@@ -3527,6 +3465,11 @@ local tbl =
 								
 								{
 									"f5e1ebaf-c20c-3327-8308-90e941110e34",
+									true,
+								},
+								
+								{
+									"cdf001f9-a39a-7e86-8583-a44ec161d114",
 									true,
 								},
 							},
@@ -3551,6 +3494,19 @@ local tbl =
 							version = 2,
 						},
 					},
+					
+					{
+						data = 
+						{
+							buffCheckType = 3,
+							buffDuration = 1,
+							buffID = 2674,
+							category = "Self",
+							comparator = 2,
+							uuid = "cdf001f9-a39a-7e86-8583-a44ec161d114",
+							version = 2,
+						},
+					},
 				},
 				mechanicTime = 454,
 				name = "dunzhen",
@@ -3558,15 +3514,12 @@ local tbl =
 				timelineIndex = 84,
 				timerEndOffset = -1,
 				timerOffset = -8,
-				timerStartOffset = -8,
+				timerStartOffset = -10,
 				uuid = "8a519ea2-e8dc-1c49-8386-12f8a6f36117",
 				version = 2,
 			},
 			inheritedIndex = 2,
 		},
-	},
-	[86] = 
-	{
 		
 		{
 			data = 
@@ -3578,86 +3531,60 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"d5ec3754-94a3-5a56-ae4c-c2de34fbe846",
-									true,
-								},
-								
-								{
-									"c9e3245a-c30a-e296-8739-a8f96d5f1878",
-									true,
-								},
-								
-								{
-									"7330077c-ea7f-d8d4-a5b0-a4bc38fd6529",
-									true,
-								},
-							},
-							gVar = "ACR_RikuPLD2_Tankbar_Reprisal",
-							uuid = "ca04861a-78e9-86d8-95be-2fe66ebc8697",
+							gVar = "ACR_RikuPLD2_Tankbar_Sentinel",
+							uuid = "966dad27-f431-e932-b5dc-95ae0912a7df",
 							variableTogglesType = 3,
 							version = 2,
 						},
-						inheritedIndex = 1,
 					},
 				},
 				conditions = 
+				{
+				},
+				mechanicTime = 454,
+				name = "yujing",
+				timeRange = true,
+				timelineIndex = 84,
+				timerEndOffset = -1,
+				timerStartOffset = -17,
+				uuid = "eae530a6-007d-949d-9f53-6e03faa885ea",
+				version = 2,
+			},
+			inheritedIndex = 15,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
 				{
 					
 					{
 						data = 
 						{
-							buffCheckType = 2,
-							buffID = 1193,
-							buffIDList = 
-							{
-								1193,
-							},
-							uuid = "d5ec3754-94a3-5a56-ae4c-c2de34fbe846",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							comparator = 2,
-							conditionType = 6,
-							inRangeValue = 5,
-							uuid = "c9e3245a-c30a-e296-8739-a8f96d5f1878",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							actionCDValue = 1,
-							actionID = 7535,
-							category = "Self",
-							comparator = 2,
-							conditionType = 4,
-							uuid = "7330077c-ea7f-d8d4-a5b0-a4bc38fd6529",
+							aType = "Variable",
+							gVar = "ACR_RikuPLD2_Tankbar_PassageOfArms",
+							uuid = "ae7068f2-134d-ecde-baf4-13a18ff172c1",
+							variableTogglesType = 3,
 							version = 2,
 						},
 					},
 				},
-				mechanicTime = 462.3,
-				name = "xuechou",
-				randomOffset = -2,
-				timeRange = true,
-				timelineIndex = 86,
-				timerEndOffset = -1,
-				timerOffset = -4,
-				timerStartOffset = -10,
-				uuid = "ebab2e26-2474-2bc5-b0ba-a22b2a087a15",
+				conditions = 
+				{
+				},
+				enabled = false,
+				mechanicTime = 454,
+				name = "chibang",
+				timelineIndex = 84,
+				timerOffset = -2,
+				uuid = "deac06ab-cbe4-aa0e-8cfd-34ac38267fbc",
 				version = 2,
 			},
-			inheritedIndex = 8,
 		},
+	},
+	[86] = 
+	{
 		
 		{
 			data = 
@@ -4047,7 +3974,7 @@ local tbl =
 				timelineIndex = 91,
 				timerEndOffset = 5,
 				timerOffset = -9,
-				timerStartOffset = -3.5,
+				timerStartOffset = -4,
 				uuid = "8baeb8f0-7a43-bb8f-b16d-1b71dc4cd413",
 				version = 2,
 			},
@@ -4099,7 +4026,7 @@ local tbl =
 				timelineIndex = 91,
 				timerEndOffset = -1,
 				timerOffset = -5,
-				timerStartOffset = -10,
+				timerStartOffset = -14,
 				uuid = "82f884aa-df47-e69b-8eef-92fe3af27992",
 				version = 2,
 			},

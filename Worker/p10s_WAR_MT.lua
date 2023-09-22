@@ -3623,6 +3623,62 @@ local tbl =
 			},
 		},
 	},
+	[75] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 44,
+							conditions = 
+							{
+								
+								{
+									"f0ad3845-f69b-9e34-80c5-78fc4fb7e3c5",
+									true,
+								},
+							},
+							gVar = "ACR_RikuWAR2_Tankbar_Vengeance",
+							ignoreWeaveRules = true,
+							uuid = "712f51a9-c2ad-fc41-a060-43b4fb72262e",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							actionCDValue = 1,
+							actionID = 44,
+							category = "Self",
+							comparator = 2,
+							conditionType = 4,
+							uuid = "f0ad3845-f69b-9e34-80c5-78fc4fb7e3c5",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 437.8,
+				name = "[WAR] fuchou",
+				timelineIndex = 75,
+				timerEndOffset = -1.5,
+				timerOffset = 0.20000000298023,
+				timerStartOffset = -15,
+				uuid = "78bd3aa4-dc51-6db9-a2f0-e151f05f29ab",
+				version = 2,
+			},
+		},
+	},
 	[76] = 
 	{
 		
@@ -3675,64 +3731,8 @@ local tbl =
 				timelineIndex = 76,
 				timerEndOffset = 3,
 				timerOffset = -2,
-				timerStartOffset = -2,
+				timerStartOffset = -4.5,
 				uuid = "8ff5935d-a04b-d1c6-912c-4c5f2c2bab38",
-				version = 2,
-			},
-		},
-	},
-	[77] = 
-	{
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							actionID = 44,
-							conditions = 
-							{
-								
-								{
-									"f0ad3845-f69b-9e34-80c5-78fc4fb7e3c5",
-									true,
-								},
-							},
-							gVar = "ACR_RikuWAR2_Tankbar_Vengeance",
-							ignoreWeaveRules = true,
-							uuid = "712f51a9-c2ad-fc41-a060-43b4fb72262e",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							actionCDValue = 1,
-							actionID = 44,
-							category = "Self",
-							comparator = 2,
-							conditionType = 4,
-							uuid = "f0ad3845-f69b-9e34-80c5-78fc4fb7e3c5",
-							version = 2,
-						},
-					},
-				},
-				mechanicTime = 440.8,
-				name = "[WAR] fuchou",
-				timelineIndex = 77,
-				timerEndOffset = -1.5,
-				timerOffset = -1.5,
-				timerStartOffset = -15,
-				uuid = "bb68f447-c060-f571-b9ed-f8666737204c",
 				version = 2,
 			},
 		},
@@ -3784,7 +3784,7 @@ local tbl =
 				timeRange = true,
 				timelineIndex = 80,
 				timerEndOffset = 5,
-				timerStartOffset = -1.5,
+				timerStartOffset = -3,
 				uuid = "0c7546c2-a7d1-791a-b516-43374814f0fc",
 				version = 2,
 			},
@@ -3905,7 +3905,7 @@ local tbl =
 				timeRange = true,
 				timelineIndex = 80,
 				timerEndOffset = -4,
-				timerStartOffset = -9.5,
+				timerStartOffset = -10,
 				uuid = "5c05d219-6339-7d7f-9873-8b6888fb2400",
 				version = 2,
 			},
@@ -4252,7 +4252,7 @@ local tbl =
 				timelineIndex = 84,
 				timerEndOffset = -1.5,
 				timerOffset = -15,
-				timerStartOffset = -15,
+				timerStartOffset = -17,
 				uuid = "f202636a-1ed1-6160-bc9a-d321ccddea97",
 				version = 2,
 			},
