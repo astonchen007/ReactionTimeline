@@ -1585,6 +1585,58 @@ local tbl =
 			inheritedIndex = 9,
 		},
 	},
+	[44] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 7384,
+							actionLua = "TensorCore.API.RikuPLD2.holdActionUntil(16459, Now() + 15000)\nTensorCore.API.RikuPLD2.holdActionUntil(7384, Now() + 20000)\n\n\nself.used = true",
+							conditions = 
+							{
+								
+								{
+									"bcfdf75e-5e27-0c97-88b4-684697d135bd",
+									true,
+								},
+							},
+							targetType = "Current Target",
+							uuid = "50e0b560-b2d5-c712-a805-8024f756f680",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffID = 2673,
+							category = "Self",
+							lastSkillID = 7383,
+							uuid = "bcfdf75e-5e27-0c97-88b4-684697d135bd",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 233.6,
+				name = "shengling",
+				timelineIndex = 44,
+				timerEndOffset = 16,
+				timerOffset = -10,
+				uuid = "80efd16e-4bcc-8823-8295-782faa9aa859",
+				version = 2,
+			},
+		},
+	},
 	[66] = 
 	{
 		
@@ -1778,7 +1830,7 @@ local tbl =
 				timelineIndex = 71,
 				timerEndOffset = 10,
 				timerOffset = -4,
-				timerStartOffset = -10,
+				timerStartOffset = -29,
 				uuid = "b8fbfd1c-4a19-772c-891c-b70451fa924c",
 				version = 2,
 			},

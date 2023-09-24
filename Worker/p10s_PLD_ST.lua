@@ -657,6 +657,80 @@ local tbl =
 				version = 2,
 			},
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"d5ec3754-94a3-5a56-ae4c-c2de34fbe846",
+									true,
+								},
+								
+								{
+									"be0b7fb2-514c-4cbd-96fa-da01e1f228f2",
+									true,
+								},
+							},
+							gVar = "ACR_RikuPLD2_Tankbar_Reprisal",
+							uuid = "ca04861a-78e9-86d8-95be-2fe66ebc8697",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 2,
+							buffID = 1193,
+							buffIDList = 
+							{
+								1193,
+							},
+							uuid = "d5ec3754-94a3-5a56-ae4c-c2de34fbe846",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							actionCDValue = 1,
+							actionID = 7535,
+							category = "Self",
+							comparator = 2,
+							conditionType = 4,
+							uuid = "be0b7fb2-514c-4cbd-96fa-da01e1f228f2",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 70.9,
+				name = "xuechou",
+				randomOffset = -2,
+				timeRange = true,
+				timelineIndex = 12,
+				timerEndOffset = -1,
+				timerOffset = -4,
+				timerStartOffset = -10,
+				uuid = "34aedc6e-d9bb-9eb0-8388-7e2887d647a4",
+				version = 2,
+			},
+			inheritedIndex = 8,
+		},
 	},
 	[20] = 
 	{
@@ -1229,7 +1303,7 @@ local tbl =
 				name = "tiaoxin",
 				timelineIndex = 28,
 				timerEndOffset = 20,
-				timerOffset = 20,
+				timerOffset = 25,
 				timerStartOffset = 7,
 				uuid = "32bf00d0-7e3a-be78-943d-0aad6e640fc6",
 				version = 2,
@@ -2158,6 +2232,80 @@ local tbl =
 				version = 2,
 			},
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"d5ec3754-94a3-5a56-ae4c-c2de34fbe846",
+									true,
+								},
+								
+								{
+									"be0b7fb2-514c-4cbd-96fa-da01e1f228f2",
+									true,
+								},
+							},
+							gVar = "ACR_RikuPLD2_Tankbar_Reprisal",
+							uuid = "ca04861a-78e9-86d8-95be-2fe66ebc8697",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 2,
+							buffID = 1193,
+							buffIDList = 
+							{
+								1193,
+							},
+							uuid = "d5ec3754-94a3-5a56-ae4c-c2de34fbe846",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							actionCDValue = 1,
+							actionID = 7535,
+							category = "Self",
+							comparator = 2,
+							conditionType = 4,
+							uuid = "be0b7fb2-514c-4cbd-96fa-da01e1f228f2",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 281,
+				name = "xuechou",
+				randomOffset = -2,
+				timeRange = true,
+				timelineIndex = 44,
+				timerEndOffset = -1,
+				timerOffset = -4,
+				timerStartOffset = -9.5,
+				uuid = "6e7377b7-a5eb-1290-9e39-4c048e6c6942",
+				version = 2,
+			},
+			inheritedIndex = 8,
+		},
 	},
 	[49] = 
 	{
@@ -2641,6 +2789,100 @@ local tbl =
 			},
 		},
 	},
+	[62] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"d5ec3754-94a3-5a56-ae4c-c2de34fbe846",
+									true,
+								},
+								
+								{
+									"c9e3245a-c30a-e296-8739-a8f96d5f1878",
+									true,
+								},
+								
+								{
+									"e3505110-4062-e805-9b1b-5751b13059cd",
+									true,
+								},
+							},
+							gVar = "ACR_RikuPLD2_Tankbar_Reprisal",
+							uuid = "ca04861a-78e9-86d8-95be-2fe66ebc8697",
+							variableTogglesType = 3,
+							version = 2,
+						},
+						inheritedIndex = 1,
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 2,
+							buffID = 1193,
+							buffIDList = 
+							{
+								1193,
+							},
+							uuid = "d5ec3754-94a3-5a56-ae4c-c2de34fbe846",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							comparator = 2,
+							conditionType = 6,
+							inRangeValue = 5,
+							uuid = "c9e3245a-c30a-e296-8739-a8f96d5f1878",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							actionCDValue = 1,
+							actionID = 7535,
+							category = "Self",
+							comparator = 2,
+							conditionType = 4,
+							uuid = "e3505110-4062-e805-9b1b-5751b13059cd",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 357.7,
+				name = "xuechou",
+				randomOffset = -2,
+				timeRange = true,
+				timelineIndex = 62,
+				timerEndOffset = -1,
+				timerOffset = -4,
+				timerStartOffset = -9,
+				uuid = "cc46494e-0aba-a6d2-abfc-3e3b3cbbb9da",
+				version = 2,
+			},
+			inheritedIndex = 3,
+		},
+	},
 	[65] = 
 	{
 		
@@ -2881,6 +3123,7 @@ local tbl =
 						},
 					},
 				},
+				enabled = false,
 				mechanicTime = 384.6,
 				name = "ganyu ot",
 				randomOffset = 5,
@@ -2930,11 +3173,6 @@ local tbl =
 									"369c369a-f5ff-2dea-b30a-5c76bae3ca61",
 									true,
 								},
-								
-								{
-									"54c516ad-4e18-207f-b01a-67762c1ded1e",
-									true,
-								},
 							},
 							gVar = "ACR_RikuPLD2_Tankbar_InterventionOT",
 							uuid = "c589d305-82e0-033c-818f-78ca9c517fdb",
@@ -2953,18 +3191,6 @@ local tbl =
 							conditionType = 6,
 							gaugeValue = 50,
 							uuid = "369c369a-f5ff-2dea-b30a-5c76bae3ca61",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							actionCDValue = 1,
-							actionID = 3542,
-							category = "Self",
-							conditionType = 4,
-							uuid = "54c516ad-4e18-207f-b01a-67762c1ded1e",
 							version = 2,
 						},
 					},
