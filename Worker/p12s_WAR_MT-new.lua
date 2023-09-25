@@ -2090,39 +2090,6 @@ local tbl =
 			},
 			inheritedIndex = 12,
 		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							actionID = 25751,
-							gVar = "ACR_RikuWAR2_Hotbar_Sprint",
-							ignoreWeaveRules = true,
-							uuid = "6f974e85-fb90-fca9-94c0-c0c6c173d746",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 128.2,
-				name = "[WAR] jipao",
-				timelineIndex = 21,
-				timerEndOffset = -0.5,
-				timerOffset = -2,
-				timerStartOffset = -20,
-				uuid = "9cd1774d-0b5f-e939-b0be-0f018840cf28",
-				version = 2,
-			},
-		},
 	},
 	[22] = 
 	{
@@ -2139,7 +2106,6 @@ local tbl =
 							aType = "Variable",
 							actionID = 7389,
 							gVar = "ACR_RikuWAR2_Jumps",
-							gVarValue = 2,
 							ignoreWeaveRules = true,
 							uuid = "6f974e85-fb90-fca9-94c0-c0c6c173d746",
 							version = 2,
@@ -6616,7 +6582,7 @@ local tbl =
 				timelineIndex = 91,
 				timerEndOffset = -1.5,
 				timerOffset = -4,
-				timerStartOffset = -10,
+				timerStartOffset = -8.5,
 				uuid = "f8bd46f4-4dac-7551-b9bc-100244ce0f95",
 				version = 2,
 			},
@@ -7742,6 +7708,67 @@ local tbl =
 				version = 2,
 			},
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"cf4e738c-6df9-2b97-b4df-be557c138e6e",
+									true,
+								},
+							},
+							endIfUsed = true,
+							gVar = "ACR_RikuWAR2_Hotbar_Onslaught",
+							uuid = "55a51d6f-dc97-007f-956f-704917a9ea88",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							category = "Self",
+							conditionType = 14,
+							dequeueIfLuaFalse = true,
+							jobIDList = 
+							{
+								19,
+								21,
+								32,
+								37,
+							},
+							name = "is Tank",
+							uuid = "cf4e738c-6df9-2b97-b4df-be557c138e6e",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 1197.3,
+				name = "[war] onslaught",
+				timeRange = true,
+				timelineIndex = 111,
+				timerEndOffset = 7,
+				timerOffset = 1,
+				timerStartOffset = 5,
+				uuid = "353d56c0-e0ee-be22-818e-e21abaed8fa0",
+				version = 2,
+			},
+			inheritedIndex = 5,
+		},
 	},
 	[113] = 
 	{
@@ -7812,7 +7839,7 @@ local tbl =
 				name = "[WAR] baituo p2",
 				timeRange = true,
 				timelineIndex = 113,
-				timerEndOffset = 10,
+				timerEndOffset = 15,
 				timerStartOffset = -5,
 				uuid = "2139a116-b9e4-1416-911e-f170b0c72301",
 				version = 2,
@@ -9893,7 +9920,7 @@ local tbl =
 				timelineIndex = 149,
 				timerEndOffset = 1,
 				timerOffset = -1,
-				timerStartOffset = -12,
+				timerStartOffset = -8,
 				uuid = "3768fca5-f917-c6bc-bd7c-ca722d52c045",
 				version = 2,
 			},
@@ -9989,6 +10016,62 @@ local tbl =
 				timerOffset = -3,
 				timerStartOffset = -2,
 				uuid = "83ada080-8b4e-3b13-85a6-8ebd84337212",
+				version = 2,
+			},
+		},
+	},
+	[155] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"a7db37ff-6c97-378b-a5d8-3667c6def160",
+									true,
+								},
+							},
+							gVar = "ACR_RikuWAR2_Tankbar_Vengeance",
+							uuid = "6f974e85-fb90-fca9-94c0-c0c6c173d746",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							actionCDValue = 1,
+							actionID = 44,
+							category = "Self",
+							comparator = 2,
+							conditionType = 4,
+							uuid = "a7db37ff-6c97-378b-a5d8-3667c6def160",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 1457.1,
+				name = "[WAR] fuchou",
+				timeRange = true,
+				timelineIndex = 155,
+				timerEndOffset = 15,
+				timerOffset = 2,
+				timerStartOffset = 1.5,
+				uuid = "f76cb9bb-7990-2ee6-a2ea-c7e55821f814",
 				version = 2,
 			},
 		},
