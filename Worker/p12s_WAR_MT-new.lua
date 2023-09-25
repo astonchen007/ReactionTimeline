@@ -4857,6 +4857,7 @@ local tbl =
 									true,
 								},
 							},
+							endIfUsed = true,
 							gVar = "ACR_RikuWAR2_Hotbar_Onslaught",
 							uuid = "55a51d6f-dc97-007f-956f-704917a9ea88",
 							variableTogglesType = 2,
@@ -7611,58 +7612,6 @@ local tbl =
 							{
 								
 								{
-									"f0ad3845-f69b-9e34-80c5-78fc4fb7e3c5",
-									true,
-								},
-							},
-							gVar = "ACR_RikuWAR2_Tankbar_Equilibrium",
-							uuid = "712f51a9-c2ad-fc41-a060-43b4fb72262e",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							actionCDValue = 1,
-							actionID = 3552,
-							category = "Self",
-							comparator = 2,
-							conditionType = 4,
-							uuid = "f0ad3845-f69b-9e34-80c5-78fc4fb7e3c5",
-							version = 2,
-						},
-					},
-				},
-				mechanicTime = 1197.3,
-				name = "[WAR] tairan",
-				timelineIndex = 111,
-				timerEndOffset = 10,
-				timerOffset = 1,
-				timerStartOffset = 1,
-				uuid = "97c18152-cf32-54c4-bb10-94bf1fb8e7c4",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
 									"cf4e738c-6df9-2b97-b4df-be557c138e6e",
 									true,
 								},
@@ -7708,6 +7657,58 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 5,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"f0ad3845-f69b-9e34-80c5-78fc4fb7e3c5",
+									true,
+								},
+							},
+							gVar = "ACR_RikuWAR2_Tankbar_Equilibrium",
+							uuid = "712f51a9-c2ad-fc41-a060-43b4fb72262e",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							actionCDValue = 1,
+							actionID = 3552,
+							category = "Self",
+							comparator = 2,
+							conditionType = 4,
+							uuid = "f0ad3845-f69b-9e34-80c5-78fc4fb7e3c5",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 1197.3,
+				name = "[WAR] tairan",
+				timelineIndex = 111,
+				timerEndOffset = 10,
+				timerOffset = 1,
+				timerStartOffset = 1,
+				uuid = "97c18152-cf32-54c4-bb10-94bf1fb8e7c4",
+				version = 2,
+			},
 		},
 	},
 	[113] = 
@@ -9731,7 +9732,7 @@ local tbl =
 				timeRange = true,
 				timelineIndex = 149,
 				timerEndOffset = -0.5,
-				timerStartOffset = -4,
+				timerStartOffset = -6,
 				uuid = "2c0b0a9a-5599-5fbd-9ffb-8ded3af337cd",
 				version = 2,
 			},
