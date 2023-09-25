@@ -4857,67 +4857,6 @@ local tbl =
 									true,
 								},
 							},
-							endIfUsed = true,
-							gVar = "ACR_RikuDRK2_Hotbar_Plunge",
-							uuid = "3300a534-17f4-77d7-b1ac-d291308f64b6",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"cf4e738c-6df9-2b97-b4df-be557c138e6e",
-									true,
-								},
-							},
-							endIfUsed = true,
-							gVar = "ACR_RikuGNB2_Hotbar_RoughDivide",
-							uuid = "85bf2cb8-0488-14cd-a5db-6bc9bb01cd84",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"cf4e738c-6df9-2b97-b4df-be557c138e6e",
-									true,
-								},
-							},
-							endIfUsed = true,
-							gVar = "ACR_RikuPLD2_Hotbar_Intervene",
-							uuid = "eb2ffcbc-f4d0-dd27-8da1-99d8870a68c1",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"cf4e738c-6df9-2b97-b4df-be557c138e6e",
-									true,
-								},
-							},
-							endIfUsed = true,
 							gVar = "ACR_RikuWAR2_Hotbar_Onslaught",
 							uuid = "55a51d6f-dc97-007f-956f-704917a9ea88",
 							variableTogglesType = 2,
@@ -4949,8 +4888,9 @@ local tbl =
 				},
 				mechanicTime = 352.6,
 				name = "[war] onslaught",
+				timeRange = true,
 				timelineIndex = 65,
-				timerEndOffset = 6,
+				timerEndOffset = -5,
 				timerOffset = -7,
 				timerStartOffset = -7,
 				uuid = "727cd7ca-4739-f7b5-88a0-2fe21bebaf30",
