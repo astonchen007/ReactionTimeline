@@ -86,6 +86,41 @@ local tbl =
 	{
 		data = 
 		{
+			name = "Prepull Helper",
+			uuid = "f3f14094-debc-3a93-8580-b9160e6316e0",
+			version = 2,
+		},
+		inheritedObjectUUID = "5dfb0697-6b00-2c54-8e16-4e5076d56c94",
+		inheritedOverwrites = 
+		{
+			conditions = 
+			{
+				
+				{
+					position = 9,
+					type = "add",
+					value = 
+					{
+						data = 
+						{
+							name = "holy spirit timer",
+							uuid = "85f8e388-7248-7025-b580-9c4171d754c4",
+							version = 2,
+						},
+						inheritedIndex = 9,
+						inheritedObjectUUID = "676643d9-c44a-a827-9829-854cf1f9eefe",
+						inheritedOverwrites = 
+						{
+						},
+					},
+				},
+			},
+		},
+	},
+	
+	{
+		data = 
+		{
 			actions = 
 			{
 				
@@ -117,40 +152,22 @@ local tbl =
 				{
 					data = 
 					{
-						aType = "Variable",
-						conditions = 
-						{
-							
-							{
-								"496b75da-0f36-273c-8e0c-f8f5b5c37243",
-								true,
-							},
-							
-							{
-								"07b90d65-36c8-db4f-934e-e4f2fe272db8",
-								true,
-							},
-						},
-						gVar = "ACR_RikuPLD2_Hotbar_IronWill",
-						uuid = "1cc92f44-d82a-763e-9655-7bc5e75c1c84",
-						variableTogglesType = 2,
-						version = 2,
-					},
-				},
-				
-				{
-					data = 
-					{
-						aType = "Variable",
+						actionID = 3,
 						conditions = 
 						{
 							
 							{
 								"07b90d65-36c8-db4f-934e-e4f2fe272db8",
+								true,
+							},
+							
+							{
+								"be67b0e2-56ee-0a43-a9a3-73298c203f04",
 								true,
 							},
 						},
 						gVar = "ACR_RikuPLD2_Hotbar_Sprint",
+						ignoreWeaveRules = true,
 						uuid = "c03ff2b6-c665-801c-8335-a12db8da7192",
 						variableTogglesType = 2,
 						version = 2,
@@ -431,11 +448,6 @@ local tbl =
 							
 							{
 								"67fe8b82-fc76-33d1-877f-4c8b00a7c07b",
-								true,
-							},
-							
-							{
-								"98a4740e-5786-71fb-8cca-fc298b05bc8d",
 								true,
 							},
 							
