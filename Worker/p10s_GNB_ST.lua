@@ -2871,41 +2871,6 @@ local tbl =
 			},
 		},
 	},
-	[75] = 
-	{
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							actionID = 16148,
-							gVar = "ACR_RikuGNB2_Tankbar_Nebula",
-							ignoreWeaveRules = true,
-							uuid = "966dad27-f431-e932-b5dc-95ae0912a7df",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 437.8,
-				name = "Nebula",
-				timelineIndex = 75,
-				timerEndOffset = -1,
-				timerOffset = 0.20000000298023,
-				timerStartOffset = -1.5,
-				uuid = "e9841536-ecce-fca7-86da-aa85625b4a13",
-				version = 2,
-			},
-		},
-	},
 	[76] = 
 	{
 		
@@ -2937,6 +2902,38 @@ local tbl =
 				timerOffset = -9,
 				timerStartOffset = -4,
 				uuid = "7aa24c14-3d69-1254-928d-800041dd2be3",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 16148,
+							gVar = "ACR_RikuGNB2_Tankbar_Nebula",
+							ignoreWeaveRules = true,
+							uuid = "966dad27-f431-e932-b5dc-95ae0912a7df",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 438.8,
+				name = "Nebula",
+				timelineIndex = 76,
+				timerEndOffset = -1,
+				timerOffset = 0.5,
+				timerStartOffset = -1.5,
+				uuid = "ad95db50-260a-1cb3-b210-917880ab2ccd",
 				version = 2,
 			},
 		},
@@ -3173,7 +3170,7 @@ local tbl =
 				timelineIndex = 84,
 				timerEndOffset = -1,
 				timerOffset = -4,
-				timerStartOffset = -11.5,
+				timerStartOffset = -10,
 				uuid = "dd2d02bc-aca1-8349-a1ed-e5178ff5df70",
 				version = 2,
 			},
@@ -3206,7 +3203,7 @@ local tbl =
 				timelineIndex = 84,
 				timerEndOffset = -0.5,
 				timerOffset = -9,
-				timerStartOffset = -8,
+				timerStartOffset = -3.5,
 				uuid = "39f8bcbd-873d-3fbf-9fd1-5ac5d673f4af",
 				version = 2,
 			},
@@ -3237,7 +3234,7 @@ local tbl =
 				timeRange = true,
 				timelineIndex = 84,
 				timerEndOffset = -1,
-				timerStartOffset = -17,
+				timerStartOffset = -14.5,
 				uuid = "d5a268d2-de93-1fd2-9c8f-19da6775ebd2",
 				version = 2,
 			},
@@ -3390,6 +3387,7 @@ local tbl =
 				conditions = 
 				{
 				},
+				enabled = false,
 				mechanicTime = 490.6,
 				name = "Camo",
 				randomOffset = -17,
@@ -3438,6 +3436,39 @@ local tbl =
 				uuid = "411f9615-0d24-0d55-91cc-2c1fbc9a64c1",
 				version = 2,
 			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuGNB2_Tankbar_Rampart",
+							uuid = "3410359c-5002-7258-bb18-9f378443cf50",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 490.6,
+				name = "Rampart",
+				timeRange = true,
+				timelineIndex = 88,
+				timerEndOffset = -1,
+				timerOffset = -5,
+				timerStartOffset = -12,
+				uuid = "ff470e23-c574-c5a0-8993-9567fa842a66",
+				version = 2,
+			},
+			inheritedIndex = 7,
 		},
 	},
 	[90] = 
@@ -3604,7 +3635,7 @@ local tbl =
 				timelineIndex = 91,
 				timerEndOffset = 10,
 				timerOffset = -5,
-				timerStartOffset = 2,
+				timerStartOffset = 2.5,
 				uuid = "0a53f272-7d68-658a-af8c-7e6abef1cec9",
 				version = 2,
 			},
