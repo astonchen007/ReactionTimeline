@@ -6,6 +6,20 @@ local tbl =
 		{
 			data = 
 			{
+				name = "Check Stance",
+				uuid = "488dee29-f9c5-ffc4-a1b4-ae678ac72bb5",
+				version = 2,
+			},
+			inheritedObjectUUID = "bd1dc1a2-7f37-a15a-90e7-fdf27f87dc0e",
+			inheritedOverwrites = 
+			{
+				enabled = false,
+			},
+		},
+		
+		{
+			data = 
+			{
 				actions = 
 				{
 					
@@ -126,6 +140,53 @@ local tbl =
 				version = 2,
 			},
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 28,
+							conditions = 
+							{
+								
+								{
+									"527cd872-5d8d-7ad1-a12d-798104f7d8ba",
+									true,
+								},
+							},
+							uuid = "466d612b-5092-03d0-896d-a56ccaaad52f",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 2,
+							buffID = 79,
+							category = "Self",
+							uuid = "527cd872-5d8d-7ad1-a12d-798104f7d8ba",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 16,
+				name = "dunzi",
+				timeRange = true,
+				timelineIndex = 3,
+				timerStartOffset = -5,
+				uuid = "a894353f-5832-7390-8ac6-4bb0eb4aaa43",
+				version = 2,
+			},
+		},
 	},
 	[4] = 
 	{
@@ -139,8 +200,7 @@ local tbl =
 					{
 						data = 
 						{
-							aType = "Variable",
-							actionID = 3629,
+							actionID = 28,
 							conditions = 
 							{
 								
@@ -165,18 +225,19 @@ local tbl =
 							buffCheckType = 2,
 							buffID = 79,
 							category = "Self",
-							dequeueIfLuaFalse = true,
 							uuid = "ec2ebf89-eedf-9e55-9d47-6f61c31ca7d1",
 							version = 2,
 						},
 						inheritedIndex = 1,
 					},
 				},
+				enabled = false,
 				mechanicTime = 26.1,
 				name = "dunzi",
 				timeRange = true,
 				timelineIndex = 4,
-				timerOffset = -7,
+				timerEndOffset = -10,
+				timerOffset = -13,
 				timerStartOffset = -15,
 				uuid = "01a3379f-5f99-9557-8cc5-ebd7b378bcdd",
 				version = 2,
@@ -367,6 +428,78 @@ local tbl =
 				uuid = "ff5e605c-f6fe-c109-94d7-efd7fe0cad20",
 				version = 2,
 			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"18b9d8d0-bf2e-0cb3-94be-025d72ae2332",
+									true,
+								},
+								
+								{
+									"ec65eeed-b6e2-3c50-9f36-4d000690b550",
+									true,
+								},
+							},
+							gVar = "ACR_RikuPLD2_Tankbar_DivineVeil",
+							uuid = "45424160-1641-8451-aac2-b809c8f8101c",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 3540,
+							category = "Self",
+							comparator = 2,
+							conditionType = 4,
+							uuid = "18b9d8d0-bf2e-0cb3-94be-025d72ae2332",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							category = "Party",
+							comparator = 2,
+							conditionType = 4,
+							inRangeValue = 29.5,
+							minTargetPercent = true,
+							partyTargetNumber = 100,
+							partyTargetSubType = "Number",
+							uuid = "ec65eeed-b6e2-3c50-9f36-4d000690b550",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 48.3,
+				name = "mulian",
+				timeRange = true,
+				timelineIndex = 7,
+				timerEndOffset = -1.5,
+				timerStartOffset = -18,
+				uuid = "10863fcb-eb30-15b3-b6a4-e34dd6fce614",
+				version = 2,
+			},
+			inheritedIndex = 2,
 		},
 	},
 	[8] = 
@@ -3514,6 +3647,7 @@ local tbl =
 						},
 					},
 				},
+				enabled = false,
 				mechanicTime = 619.5,
 				name = "provoke",
 				timeRange = true,
