@@ -1438,6 +1438,38 @@ local tbl =
 				version = 2,
 			},
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							actionID = 18,
+							gVar = "ACR_RikuPLD2_Hotbar_ShirkOT",
+							uuid = "70f049fa-7e36-6da8-adab-d784d8c80289",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 187.1,
+				name = "tuibi e",
+				timelineIndex = 37,
+				timerEndOffset = 10,
+				timerOffset = 1,
+				timerStartOffset = -10,
+				uuid = "857d4a3f-4a1b-0c33-820a-5f0d82171daa",
+				version = 2,
+			},
+		},
 	},
 	[41] = 
 	{
@@ -1660,7 +1692,6 @@ local tbl =
 				conditions = 
 				{
 				},
-				enabled = false,
 				mechanicTime = 258.1,
 				name = "FOF slow",
 				timelineIndex = 66,
@@ -1689,7 +1720,6 @@ local tbl =
 				conditions = 
 				{
 				},
-				enabled = false,
 				mechanicTime = 258.1,
 				name = "FOF quick",
 				timelineIndex = 66,
