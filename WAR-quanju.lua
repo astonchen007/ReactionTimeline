@@ -446,21 +446,22 @@ local tbl =
 				{
 					data = 
 					{
-						aType = "Variable",
+						actionID = 44,
 						conditions = 
 						{
-							
-							{
-								"206e24f6-cd34-ac49-b8a3-d06569e4412a",
-								true,
-							},
 							
 							{
 								"85b850dc-6654-3e17-adb6-6d8aa2b843a7",
 								true,
 							},
+							
+							{
+								"1cd102e7-98af-f724-b3b0-276b286e024d",
+								true,
+							},
 						},
 						gVar = "ACR_RikuWAR2_Tankbar_Vengeance",
+						ignoreWeaveRules = true,
 						uuid = "d8afeb59-1046-d95a-9268-56c6ada8b948",
 						variableTogglesType = 3,
 						version = 2,
@@ -532,6 +533,11 @@ local tbl =
 							
 							{
 								"9130b971-2839-6ac0-bfca-bfcdd904c6f0",
+								true,
+							},
+							
+							{
+								"98a4740e-5786-71fb-8cca-fc298b05bc8d",
 								true,
 							},
 						},
@@ -654,25 +660,6 @@ local tbl =
 						version = 2,
 					},
 				},
-				
-				{
-					data = 
-					{
-						aType = "Variable",
-						conditions = 
-						{
-							
-							{
-								"07b90d65-36c8-db4f-934e-e4f2fe272db8",
-								true,
-							},
-						},
-						gVar = "ACR_RikuWAR2_Hotbar_Sprint",
-						uuid = "4f2c43e8-7ce5-4ce1-9c83-83ca63e54e16",
-						variableTogglesType = 2,
-						version = 2,
-					},
-				},
 			},
 			conditions = 
 			{
@@ -738,7 +725,7 @@ local tbl =
 					{
 						category = "Event",
 						comparator = 2,
-						eventCountdownTime = 5,
+						eventCountdownTime = 3,
 						uuid = "85b850dc-6654-3e17-adb6-6d8aa2b843a7",
 						version = 2,
 					},
@@ -994,6 +981,29 @@ local tbl =
 						buffID = 91,
 						category = "Self",
 						uuid = "7037cc77-55a7-87c0-9be5-ae7bd4c3e55d",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						category = "Filter",
+						conditions = 
+						{
+							
+							{
+								"7d96ad09-3f70-b430-a5bc-999aed7e45f0",
+								true,
+							},
+							
+							{
+								"98a4740e-5786-71fb-8cca-fc298b05bc8d",
+								true,
+							},
+						},
+						matchAnyBuff = true,
+						uuid = "1cd102e7-98af-f724-b3b0-276b286e024d",
 						version = 2,
 					},
 				},
