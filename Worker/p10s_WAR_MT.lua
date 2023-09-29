@@ -2146,6 +2146,24 @@ local tbl =
 			{
 				actions = 
 				{
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 258.4,
+				name = "-----st wudi-------",
+				timelineIndex = 41,
+				uuid = "6ed6d78f-a48d-d4cf-ba10-1eb785f248f8",
+				version = 2,
+			},
+			inheritedIndex = 4,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
 					
 					{
 						data = 
@@ -2206,6 +2224,7 @@ local tbl =
 				uuid = "cb95d755-45f5-9ff8-b98a-4cdc288edbf7",
 				version = 2,
 			},
+			inheritedIndex = 5,
 		},
 		
 		{
@@ -2427,8 +2446,9 @@ local tbl =
 				},
 				mechanicTime = 278.6,
 				name = "[WAR] xueqi",
+				timeRange = true,
 				timelineIndex = 43,
-				timerEndOffset = -5,
+				timerEndOffset = -1,
 				timerOffset = -4,
 				timerStartOffset = -4,
 				uuid = "e9899b11-43e8-1543-a9fc-71deb12d6096",
