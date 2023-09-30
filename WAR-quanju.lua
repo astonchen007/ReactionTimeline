@@ -230,7 +230,7 @@ local tbl =
 						data = 
 						{
 							category = "Lua",
-							conditionLua = "return ACR_RikuWAR2_Tomahawk == true",
+							conditionLua = "return ACR_RikuWAR2_Tomahawk == truea",
 							dequeueIfLuaFalse = true,
 							name = "Tomahawk on",
 							uuid = "d4751283-f039-19e3-9584-5168f0693d44",
@@ -250,6 +250,18 @@ local tbl =
 							localmapid = 1152,
 							name = "12sP1",
 							uuid = "4e3a8584-07e2-efe4-bd00-c4078963aaad",
+							version = 2,
+						},
+					},
+				},
+				
+				{
+					type = "add",
+					value = 
+					{
+						data = 
+						{
+							uuid = "486ae2fe-3c74-f29a-a4dc-bfb9ace9a40c",
 							version = 2,
 						},
 					},
@@ -542,7 +554,7 @@ local tbl =
 							},
 						},
 						ignoreWeaveRules = true,
-						name = "pot",
+						name = "baituo",
 						potType = 4,
 						usePot = true,
 						uuid = "c1852774-6cd5-0691-895b-dec131505c68",
@@ -617,6 +629,11 @@ local tbl =
 							
 							{
 								"99e7895a-5ae8-37d3-aa77-d63452c63108",
+								true,
+							},
+							
+							{
+								"3b91f8ec-0e51-567f-bdf3-bf869a322742",
 								true,
 							},
 						},
@@ -1004,6 +1021,18 @@ local tbl =
 						},
 						matchAnyBuff = true,
 						uuid = "1cd102e7-98af-f724-b3b0-276b286e024d",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						category = "Lua",
+						conditionLua = "return ACR_RikuWAR2_Potion == true",
+						dequeueIfLuaFalse = true,
+						name = "potion on",
+						uuid = "3b91f8ec-0e51-567f-bdf3-bf869a322742",
 						version = 2,
 					},
 				},
