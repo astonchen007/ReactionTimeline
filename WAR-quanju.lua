@@ -428,36 +428,6 @@ local tbl =
 				{
 					data = 
 					{
-						actionID = 7531,
-						conditions = 
-						{
-							
-							{
-								"b7d438b2-66bb-8e02-9b94-d58c36ddb3bb",
-								true,
-							},
-							
-							{
-								"0ef0b1d7-0999-c967-bfcd-b03272511d0f",
-								true,
-							},
-							
-							{
-								"ab36a203-9ef9-6917-b523-e21864f1a7f5",
-								true,
-							},
-						},
-						gVar = "ACR_RikuWAR2_Tankbar_Rampart",
-						ignoreWeaveRules = true,
-						uuid = "fb88845e-0f02-25c3-94cb-b784a66c7dbb",
-						variableTogglesType = 3,
-						version = 2,
-					},
-				},
-				
-				{
-					data = 
-					{
 						actionID = 44,
 						conditions = 
 						{
@@ -677,6 +647,29 @@ local tbl =
 						version = 2,
 					},
 				},
+				
+				{
+					data = 
+					{
+						actionID = 3551,
+						conditions = 
+						{
+							
+							{
+								"85b850dc-6654-3e17-adb6-6d8aa2b843a7",
+								true,
+							},
+							
+							{
+								"7d96ad09-3f70-b430-a5bc-999aed7e45f0",
+								true,
+							},
+						},
+						ignoreWeaveRules = true,
+						uuid = "ff35d5cf-53fc-ed01-b84d-802db427399e",
+						version = 2,
+					},
+				},
 			},
 			conditions = 
 			{
@@ -743,6 +736,7 @@ local tbl =
 						category = "Event",
 						comparator = 2,
 						eventCountdownTime = 3,
+						name = "~3s",
 						uuid = "85b850dc-6654-3e17-adb6-6d8aa2b843a7",
 						version = 2,
 					},
@@ -915,11 +909,6 @@ local tbl =
 						{
 							
 							{
-								"7d96ad09-3f70-b430-a5bc-999aed7e45f0",
-								true,
-							},
-							
-							{
 								"9130b971-2839-6ac0-bfca-bfcdd904c6f0",
 								true,
 							},
@@ -975,12 +964,7 @@ local tbl =
 							},
 							
 							{
-								"7d96ad09-3f70-b430-a5bc-999aed7e45f0",
-								true,
-							},
-							
-							{
-								"ab36a203-9ef9-6917-b523-e21864f1a7f5",
+								"a7408635-d32a-5f25-81fb-04d7971c122d",
 								true,
 							},
 						},
@@ -1008,11 +992,6 @@ local tbl =
 						category = "Filter",
 						conditions = 
 						{
-							
-							{
-								"7d96ad09-3f70-b430-a5bc-999aed7e45f0",
-								true,
-							},
 							
 							{
 								"98a4740e-5786-71fb-8cca-fc298b05bc8d",
