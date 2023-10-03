@@ -3441,6 +3441,7 @@ local tbl =
 						},
 					},
 				},
+				enabled = false,
 				mechanicTime = 375.3,
 				name = "[WAR] yongmeng debuff",
 				timeRange = true,
@@ -3565,7 +3566,6 @@ local tbl =
 						},
 					},
 				},
-				enabled = false,
 				mechanicTime = 384.6,
 				name = "[WAR] tairan",
 				timeRange = true,
@@ -3576,76 +3576,6 @@ local tbl =
 				uuid = "d69dc7f9-8c94-6ec1-8ef0-f5aa0439fe7c",
 				version = 2,
 			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"f0ad3845-f69b-9e34-80c5-78fc4fb7e3c5",
-									true,
-								},
-								
-								{
-									"a17e1c3a-999b-99d5-9b9d-93d5f16cd421",
-									true,
-								},
-							},
-							gVar = "ACR_RikuWAR2_Tankbar_ThrillOfBattle",
-							uuid = "712f51a9-c2ad-fc41-a060-43b4fb72262e",
-							variableTogglesType = 3,
-							version = 2,
-						},
-						inheritedIndex = 1,
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							actionCDValue = 1,
-							actionID = 40,
-							category = "Self",
-							comparator = 2,
-							conditionType = 4,
-							uuid = "f0ad3845-f69b-9e34-80c5-78fc4fb7e3c5",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							conditionType = 4,
-							enmityValue = 100,
-							uuid = "a17e1c3a-999b-99d5-9b9d-93d5f16cd421",
-							version = 2,
-						},
-					},
-				},
-				enabled = false,
-				mechanicTime = 384.6,
-				name = "[WAR] zhanli",
-				timeRange = true,
-				timelineIndex = 66,
-				timerEndOffset = 5,
-				timerStartOffset = -0.5,
-				uuid = "5adadb67-c4cf-4943-9741-634c33b4eb2f",
-				version = 2,
-			},
-			inheritedIndex = 4,
 		},
 		
 		{
@@ -4080,6 +4010,7 @@ local tbl =
 						},
 					},
 				},
+				enabled = false,
 				mechanicTime = 437.8,
 				name = "[WAR] tairan",
 				timelineIndex = 75,
@@ -4167,7 +4098,6 @@ local tbl =
 								},
 							},
 							gVar = "ACR_RikuWAR2_Tankbar_Vengeance",
-							ignoreWeaveRules = true,
 							uuid = "712f51a9-c2ad-fc41-a060-43b4fb72262e",
 							variableTogglesType = 3,
 							version = 2,
@@ -4214,14 +4144,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"9e440278-b896-a312-a829-2a0c6e224c7f",
-									true,
-								},
-							},
 							gVar = "ACR_RikuWAR2_Hotbar_LimitBreak",
 							uuid = "354680d9-2fd2-97ee-a7be-9a8704837298",
 							variableTogglesType = 2,
@@ -4231,85 +4153,17 @@ local tbl =
 				},
 				conditions = 
 				{
-					
-					{
-						data = 
-						{
-							buffCheckType = 2,
-							buffID = 1177,
-							category = "Self",
-							uuid = "9e440278-b896-a312-a829-2a0c6e224c7f",
-							version = 2,
-						},
-					},
 				},
 				mechanicTime = 442.6,
 				name = "TANK LB",
 				timeRange = true,
 				timelineIndex = 78,
 				timerEndOffset = 7,
-				timerStartOffset = 1,
+				timerStartOffset = 1.5,
 				uuid = "55d0e99f-bfef-7606-ad4d-0d327fa78a7e",
 				version = 2,
 			},
 			inheritedIndex = 1,
-		},
-	},
-	[79] = 
-	{
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"f0ad3845-f69b-9e34-80c5-78fc4fb7e3c5",
-									true,
-								},
-							},
-							gVar = "ACR_RikuWAR2_Tankbar_ThrillOfBattle",
-							uuid = "712f51a9-c2ad-fc41-a060-43b4fb72262e",
-							variableTogglesType = 3,
-							version = 2,
-						},
-						inheritedIndex = 1,
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							actionCDValue = 1,
-							actionID = 40,
-							category = "Self",
-							comparator = 2,
-							conditionType = 4,
-							uuid = "f0ad3845-f69b-9e34-80c5-78fc4fb7e3c5",
-							version = 2,
-						},
-					},
-				},
-				mechanicTime = 444.3,
-				name = "[WAR] zhanli",
-				timeRange = true,
-				timelineIndex = 79,
-				timerEndOffset = 5,
-				timerStartOffset = -10,
-				uuid = "f3a94311-2217-93b3-998d-4167744aa2a2",
-				version = 2,
-			},
-			inheritedIndex = 4,
 		},
 	},
 	[80] = 
@@ -4714,6 +4568,60 @@ local tbl =
 				uuid = "58127217-2337-6711-a295-49b1dd53d666",
 				version = 2,
 			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"f0ad3845-f69b-9e34-80c5-78fc4fb7e3c5",
+									true,
+								},
+							},
+							gVar = "ACR_RikuWAR2_Tankbar_ThrillOfBattle",
+							uuid = "712f51a9-c2ad-fc41-a060-43b4fb72262e",
+							variableTogglesType = 3,
+							version = 2,
+						},
+						inheritedIndex = 1,
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							actionCDValue = 1,
+							actionID = 40,
+							category = "Self",
+							comparator = 2,
+							conditionType = 4,
+							uuid = "f0ad3845-f69b-9e34-80c5-78fc4fb7e3c5",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 454,
+				name = "[WAR] zhanli",
+				timeRange = true,
+				timelineIndex = 84,
+				timerEndOffset = 5,
+				timerStartOffset = -6,
+				uuid = "a827c11b-7e13-12b6-8f32-b037cf487733",
+				version = 2,
+			},
+			inheritedIndex = 4,
 		},
 	},
 	[87] = 
@@ -5137,10 +5045,11 @@ local tbl =
 				},
 				mechanicTime = 490.6,
 				name = "[WAR] tairan",
+				timeRange = true,
 				timelineIndex = 88,
 				timerEndOffset = 10,
 				timerOffset = 6.5,
-				timerStartOffset = 1,
+				timerStartOffset = 6.5,
 				uuid = "759d3fb6-2a42-6847-bc86-8b62712bbb47",
 				version = 2,
 			},
@@ -5250,7 +5159,7 @@ local tbl =
 				timelineIndex = 90,
 				timerEndOffset = 15,
 				timerOffset = -3.5,
-				timerStartOffset = -3.5,
+				timerStartOffset = -4,
 				uuid = "65308b18-2f0c-ac15-8e1d-01cb5c09dd1a",
 				version = 2,
 			},
@@ -5318,7 +5227,7 @@ local tbl =
 				timeRange = true,
 				timelineIndex = 90,
 				timerEndOffset = 15,
-				timerStartOffset = 1.5,
+				timerStartOffset = -3,
 				uuid = "cf1f51dc-5422-369c-ace7-c5ab83b8345c",
 				version = 2,
 			},
