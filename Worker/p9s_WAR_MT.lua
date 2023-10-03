@@ -631,7 +631,7 @@ local tbl =
 				timelineIndex = 17,
 				timerEndOffset = 10,
 				timerOffset = -4,
-				timerStartOffset = -10,
+				timerStartOffset = -9,
 				uuid = "b7fa92c5-b39b-2c3c-a7b3-7df33c4c0ce8",
 				version = 2,
 			},
@@ -688,7 +688,7 @@ local tbl =
 				timelineIndex = 25,
 				timerEndOffset = 1,
 				timerOffset = -4,
-				timerStartOffset = -4,
+				timerStartOffset = -5,
 				uuid = "3ae62e22-a2f2-0302-8559-2f5f446c15c1",
 				version = 2,
 			},
@@ -983,6 +983,7 @@ local tbl =
 							uuid = "712f51a9-c2ad-fc41-a060-43b4fb72262e",
 							version = 2,
 						},
+						inheritedIndex = 1,
 					},
 				},
 				conditions = 
@@ -1011,6 +1012,7 @@ local tbl =
 						{
 							aType = "Variable",
 							gVar = "ACR_RikuWAR2_Burn",
+							gVarValue = 2,
 							uuid = "712f51a9-c2ad-fc41-a060-43b4fb72262e",
 							version = 2,
 						},
@@ -1028,7 +1030,7 @@ local tbl =
 				uuid = "628e09a2-e10e-ef70-a90a-888b69bd497c",
 				version = 2,
 			},
-			inheritedIndex = 7,
+			inheritedIndex = 8,
 		},
 	},
 	[35] = 
@@ -1864,6 +1866,7 @@ local tbl =
 						{
 							aType = "Variable",
 							gVar = "ACR_RikuWAR2_Burn",
+							gVarValue = 2,
 							uuid = "712f51a9-c2ad-fc41-a060-43b4fb72262e",
 							version = 2,
 						},
@@ -2185,7 +2188,7 @@ local tbl =
 				uuid = "1b2384c8-e38f-841c-8972-8a76aa5c347c",
 				version = 2,
 			},
-			inheritedIndex = 1,
+			inheritedIndex = 2,
 		},
 	},
 	[87] = 
@@ -2913,6 +2916,48 @@ local tbl =
 				timerEndOffset = -0.5,
 				timerStartOffset = -9.5,
 				uuid = "19fc0fbc-5eaa-8533-8512-f921505102e7",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Alert",
+							alertScale = 0,
+							alertTTS = true,
+							alertText = "往北拉",
+							alertVolume = 100,
+							uuid = "44512aee-10f7-e1c0-b8ca-8d139328d7b2",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							aType = "Alert",
+							alertScale = 2,
+							alertText = "go north",
+							alertVolume = 0,
+							uuid = "7e355af5-bffe-86f0-b477-749556d6057f",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 426.2,
+				name = "tts",
+				timelineIndex = 104,
+				uuid = "b4c27347-734d-f775-b2c4-07d57616bfca",
 				version = 2,
 			},
 		},
