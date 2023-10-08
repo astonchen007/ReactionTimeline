@@ -1009,6 +1009,68 @@ local tbl =
 				version = 2,
 			},
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"f0ad3845-f69b-9e34-80c5-78fc4fb7e3c5",
+									true,
+								},
+							},
+							gVar = "ACR_RikuWAR2_Tankbar_Reprisal",
+							uuid = "712f51a9-c2ad-fc41-a060-43b4fb72262e",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							buffCheckType = 2,
+							buffID = 1193,
+							uuid = "5006dd08-132e-ac63-9d06-91dcb6aa0069",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							actionCDValue = 1,
+							actionID = 7535,
+							category = "Self",
+							comparator = 2,
+							conditionType = 4,
+							uuid = "f0ad3845-f69b-9e34-80c5-78fc4fb7e3c5",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 118.4,
+				name = "[WAR] xuechou",
+				timeRange = true,
+				timelineIndex = 20,
+				timerEndOffset = -0.5,
+				timerStartOffset = -9.5,
+				uuid = "40ac6440-c1e8-3b2a-a5ff-ba46f510bc0a",
+				version = 2,
+			},
+		},
 	},
 	[23] = 
 	{
@@ -3513,6 +3575,7 @@ local tbl =
 						},
 					},
 				},
+				enabled = false,
 				mechanicTime = 384.6,
 				name = "[WAR] tiebi",
 				timeRange = true,
@@ -3523,59 +3586,6 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 2,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"f0ad3845-f69b-9e34-80c5-78fc4fb7e3c5",
-									true,
-								},
-							},
-							gVar = "ACR_RikuWAR2_Tankbar_Equilibrium",
-							uuid = "712f51a9-c2ad-fc41-a060-43b4fb72262e",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							actionCDValue = 1,
-							actionID = 3552,
-							category = "Self",
-							comparator = 2,
-							conditionType = 4,
-							uuid = "f0ad3845-f69b-9e34-80c5-78fc4fb7e3c5",
-							version = 2,
-						},
-					},
-				},
-				mechanicTime = 384.6,
-				name = "[WAR] tairan",
-				timeRange = true,
-				timelineIndex = 66,
-				timerEndOffset = 10,
-				timerOffset = 6,
-				timerStartOffset = 6,
-				uuid = "d69dc7f9-8c94-6ec1-8ef0-f5aa0439fe7c",
-				version = 2,
-			},
 		},
 		
 		{
@@ -3687,6 +3697,7 @@ local tbl =
 						},
 					},
 				},
+				enabled = false,
 				mechanicTime = 384.6,
 				name = "[WAR] xueqi",
 				timeRange = true,
@@ -3695,59 +3706,6 @@ local tbl =
 				timerOffset = -2.5,
 				timerStartOffset = -2.5,
 				uuid = "09db9dd6-8877-e597-9520-94f69560b205",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"f0ad3845-f69b-9e34-80c5-78fc4fb7e3c5",
-									true,
-								},
-							},
-							gVar = "ACR_RikuWAR2_Tankbar_Bloodwhetting",
-							uuid = "712f51a9-c2ad-fc41-a060-43b4fb72262e",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							actionCDValue = 1,
-							actionID = 3551,
-							category = "Self",
-							comparator = 2,
-							conditionType = 4,
-							uuid = "f0ad3845-f69b-9e34-80c5-78fc4fb7e3c5",
-							version = 2,
-						},
-					},
-				},
-				enabled = false,
-				mechanicTime = 384.6,
-				name = "[WAR] xueqi",
-				timelineIndex = 66,
-				timerEndOffset = 1,
-				timerOffset = 6.5,
-				timerStartOffset = -2,
-				uuid = "ea8547f3-e40b-a60b-a830-e28b4fe4cf57",
 				version = 2,
 			},
 		},
@@ -3768,7 +3726,7 @@ local tbl =
 				uuid = "d6353e55-ba28-7223-b9f2-7df629ed179d",
 				version = 2,
 			},
-			inheritedIndex = 7,
+			inheritedIndex = 5,
 		},
 		
 		{
@@ -3813,14 +3771,120 @@ local tbl =
 						},
 					},
 				},
-				enabled = false,
 				mechanicTime = 384.6,
 				name = "[WAR] wudi",
 				timeRange = true,
 				timelineIndex = 66,
-				timerEndOffset = -0.5,
+				timerEndOffset = 1,
 				timerStartOffset = -3,
 				uuid = "577dda81-48fc-d648-88b3-1440b14a485c",
+				version = 2,
+			},
+			inheritedIndex = 6,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"f0ad3845-f69b-9e34-80c5-78fc4fb7e3c5",
+									true,
+								},
+							},
+							gVar = "ACR_RikuWAR2_Tankbar_Bloodwhetting",
+							uuid = "712f51a9-c2ad-fc41-a060-43b4fb72262e",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							actionCDValue = 1,
+							actionID = 3551,
+							category = "Self",
+							comparator = 2,
+							conditionType = 4,
+							uuid = "f0ad3845-f69b-9e34-80c5-78fc4fb7e3c5",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 384.6,
+				name = "[WAR] xueqi",
+				timelineIndex = 66,
+				timerEndOffset = 1,
+				timerOffset = 6.5,
+				timerStartOffset = -2,
+				uuid = "ea8547f3-e40b-a60b-a830-e28b4fe4cf57",
+				version = 2,
+			},
+			inheritedIndex = 7,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"f0ad3845-f69b-9e34-80c5-78fc4fb7e3c5",
+									true,
+								},
+							},
+							gVar = "ACR_RikuWAR2_Tankbar_Equilibrium",
+							uuid = "712f51a9-c2ad-fc41-a060-43b4fb72262e",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							actionCDValue = 1,
+							actionID = 3552,
+							category = "Self",
+							comparator = 2,
+							conditionType = 4,
+							uuid = "f0ad3845-f69b-9e34-80c5-78fc4fb7e3c5",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 384.6,
+				name = "[WAR] tairan",
+				timeRange = true,
+				timelineIndex = 66,
+				timerEndOffset = 10,
+				timerOffset = 6,
+				timerStartOffset = 6.5,
+				uuid = "d69dc7f9-8c94-6ec1-8ef0-f5aa0439fe7c",
 				version = 2,
 			},
 			inheritedIndex = 8,
@@ -4409,9 +4473,9 @@ local tbl =
 				randomOffset = 3,
 				timeRange = true,
 				timelineIndex = 84,
-				timerEndOffset = 4,
+				timerEndOffset = -0.5,
 				timerOffset = -3,
-				timerStartOffset = -3,
+				timerStartOffset = -4,
 				uuid = "2a516d7c-c902-5cbd-bf5a-6b62c0839711",
 				version = 2,
 			},
@@ -4458,7 +4522,6 @@ local tbl =
 						},
 					},
 				},
-				enabled = false,
 				mechanicTime = 454,
 				name = "[WAR] tairan",
 				timeRange = true,
@@ -4808,7 +4871,6 @@ local tbl =
 						},
 					},
 				},
-				enabled = false,
 				mechanicTime = 490.6,
 				name = "[WAR] xueqi",
 				timeRange = true,
@@ -4819,186 +4881,6 @@ local tbl =
 				uuid = "f08e6847-4737-652c-a452-6b590461f5fe",
 				version = 2,
 			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"f0ad3845-f69b-9e34-80c5-78fc4fb7e3c5",
-									true,
-								},
-							},
-							gVar = "ACR_RikuWAR2_Tankbar_ThrillOfBattle",
-							uuid = "712f51a9-c2ad-fc41-a060-43b4fb72262e",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							actionCDValue = 1,
-							actionID = 40,
-							category = "Self",
-							comparator = 2,
-							conditionType = 4,
-							uuid = "f0ad3845-f69b-9e34-80c5-78fc4fb7e3c5",
-							version = 2,
-						},
-					},
-				},
-				enabled = false,
-				mechanicTime = 490.6,
-				name = "[WAR] zhanli",
-				timeRange = true,
-				timelineIndex = 88,
-				timerEndOffset = 5,
-				timerStartOffset = -4,
-				uuid = "cadd81ea-f66a-f2d3-8e8a-ecbb31bfc2e5",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-				},
-				conditions = 
-				{
-				},
-				enabled = false,
-				mechanicTime = 490.6,
-				name = "------MT WUDI-------",
-				timelineIndex = 88,
-				uuid = "6c05ff92-ba64-7b7a-acbf-428a4f49ad53",
-				version = 2,
-			},
-			inheritedIndex = 4,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"f0ad3845-f69b-9e34-80c5-78fc4fb7e3c5",
-									true,
-								},
-							},
-							gVar = "ACR_RikuWAR2_Tankbar_Holmgang",
-							uuid = "712f51a9-c2ad-fc41-a060-43b4fb72262e",
-							variableTogglesType = 3,
-							version = 2,
-						},
-						inheritedIndex = 1,
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							actionCDValue = 1,
-							actionID = 43,
-							category = "Self",
-							comparator = 2,
-							conditionType = 4,
-							uuid = "f0ad3845-f69b-9e34-80c5-78fc4fb7e3c5",
-							version = 2,
-						},
-					},
-				},
-				mechanicTime = 490.6,
-				name = "[WAR] wudi",
-				timeRange = true,
-				timelineIndex = 88,
-				timerStartOffset = -2,
-				uuid = "3db96470-a834-2fa5-9646-02f5b7bfb87f",
-				version = 2,
-			},
-			inheritedIndex = 8,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							actionID = 43,
-							conditions = 
-							{
-								
-								{
-									"f0ad3845-f69b-9e34-80c5-78fc4fb7e3c5",
-									true,
-								},
-							},
-							gVar = "ACR_RikuWAR2_Tankbar_Holmgang",
-							ignoreWeaveRules = true,
-							uuid = "712f51a9-c2ad-fc41-a060-43b4fb72262e",
-							variableTogglesType = 3,
-							version = 2,
-						},
-						inheritedIndex = 1,
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							actionCDValue = 1,
-							actionID = 43,
-							category = "Self",
-							comparator = 2,
-							conditionType = 4,
-							uuid = "f0ad3845-f69b-9e34-80c5-78fc4fb7e3c5",
-							version = 2,
-						},
-					},
-				},
-				mechanicTime = 490.6,
-				name = "[WAR] wudi e",
-				timeRange = true,
-				timelineIndex = 88,
-				timerEndOffset = 1,
-				timerStartOffset = -1,
-				uuid = "e3a66ff9-c417-eee5-a702-2ff6e2aa1657",
-				version = 2,
-			},
-			inheritedIndex = 8,
 		},
 		
 		{
@@ -5052,7 +4934,78 @@ local tbl =
 				uuid = "759d3fb6-2a42-6847-bc86-8b62712bbb47",
 				version = 2,
 			},
-			inheritedIndex = 7,
+			inheritedIndex = 3,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"f0ad3845-f69b-9e34-80c5-78fc4fb7e3c5",
+									true,
+								},
+							},
+							gVar = "ACR_RikuWAR2_Tankbar_ThrillOfBattle",
+							uuid = "712f51a9-c2ad-fc41-a060-43b4fb72262e",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							actionCDValue = 1,
+							actionID = 40,
+							category = "Self",
+							comparator = 2,
+							conditionType = 4,
+							uuid = "f0ad3845-f69b-9e34-80c5-78fc4fb7e3c5",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 490.6,
+				name = "[WAR] zhanli",
+				timeRange = true,
+				timelineIndex = 88,
+				timerEndOffset = 5,
+				timerStartOffset = -4,
+				uuid = "cadd81ea-f66a-f2d3-8e8a-ecbb31bfc2e5",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+				},
+				conditions = 
+				{
+				},
+				enabled = false,
+				mechanicTime = 490.6,
+				name = "------MT WUDI-------",
+				timelineIndex = 88,
+				uuid = "6c05ff92-ba64-7b7a-acbf-428a4f49ad53",
+				version = 2,
+			},
+			inheritedIndex = 5,
 		},
 		
 		{
@@ -5096,6 +5049,7 @@ local tbl =
 						},
 					},
 				},
+				enabled = false,
 				mechanicTime = 490.6,
 				name = "[WAR] xueqi",
 				timeRange = true,
@@ -5106,6 +5060,116 @@ local tbl =
 				uuid = "3d329de7-df0b-3d25-995f-2802a5e22fb3",
 				version = 2,
 			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 43,
+							conditions = 
+							{
+								
+								{
+									"f0ad3845-f69b-9e34-80c5-78fc4fb7e3c5",
+									true,
+								},
+							},
+							gVar = "ACR_RikuWAR2_Tankbar_Holmgang",
+							ignoreWeaveRules = true,
+							uuid = "712f51a9-c2ad-fc41-a060-43b4fb72262e",
+							variableTogglesType = 3,
+							version = 2,
+						},
+						inheritedIndex = 1,
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							actionCDValue = 1,
+							actionID = 43,
+							category = "Self",
+							comparator = 2,
+							conditionType = 4,
+							uuid = "f0ad3845-f69b-9e34-80c5-78fc4fb7e3c5",
+							version = 2,
+						},
+					},
+				},
+				enabled = false,
+				mechanicTime = 490.6,
+				name = "[WAR] wudi e",
+				timeRange = true,
+				timelineIndex = 88,
+				timerEndOffset = 1,
+				timerStartOffset = -1,
+				uuid = "e3a66ff9-c417-eee5-a702-2ff6e2aa1657",
+				version = 2,
+			},
+			inheritedIndex = 9,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"f0ad3845-f69b-9e34-80c5-78fc4fb7e3c5",
+									true,
+								},
+							},
+							gVar = "ACR_RikuWAR2_Tankbar_Holmgang",
+							uuid = "712f51a9-c2ad-fc41-a060-43b4fb72262e",
+							variableTogglesType = 3,
+							version = 2,
+						},
+						inheritedIndex = 1,
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							actionCDValue = 1,
+							actionID = 43,
+							category = "Self",
+							comparator = 2,
+							conditionType = 4,
+							uuid = "f0ad3845-f69b-9e34-80c5-78fc4fb7e3c5",
+							version = 2,
+						},
+					},
+				},
+				enabled = false,
+				mechanicTime = 490.6,
+				name = "[WAR] wudi",
+				timeRange = true,
+				timelineIndex = 88,
+				timerStartOffset = -2,
+				uuid = "3db96470-a834-2fa5-9646-02f5b7bfb87f",
+				version = 2,
+			},
+			inheritedIndex = 8,
 		},
 	},
 	[90] = 
