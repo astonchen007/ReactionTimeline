@@ -316,14 +316,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							conditions = 
-							{
-								
-								{
-									"67039eb7-6f0b-32ae-b295-98fdf684a0aa",
-									true,
-								},
-							},
 							gVar = "ACR_RikuWAR2_Tomahawk",
 							gVarValue = 2,
 							uuid = "77ea9050-6854-af6d-8f48-7355b22dcd97",
@@ -413,6 +405,124 @@ local tbl =
 							uuid = "9392f673-1d78-2d7e-a6fc-9d59d984390f",
 							version = 2,
 						},
+					},
+				},
+				
+				{
+					position = 7,
+					type = "add",
+					value = 
+					{
+						data = 
+						{
+							category = "Self",
+							conditionType = 12,
+							localMapIDList = 
+							{
+								1148,
+							},
+							name = "P9s",
+							uuid = "6a0bb02d-9e9f-30e1-8ebf-ce18a739c690",
+							version = 2,
+						},
+						inheritedIndex = 7,
+					},
+				},
+				
+				{
+					position = 8,
+					type = "add",
+					value = 
+					{
+						data = 
+						{
+							category = "Self",
+							conditionType = 12,
+							localMapIDList = 
+							{
+								1150,
+							},
+							name = "P10S",
+							uuid = "5c4886d7-dc37-a42c-9415-7d3d780d48df",
+							version = 2,
+						},
+						inheritedIndex = 8,
+					},
+				},
+				
+				{
+					position = 9,
+					type = "add",
+					value = 
+					{
+						data = 
+						{
+							category = "Self",
+							conditionType = 12,
+							localMapIDList = 
+							{
+								1152,
+							},
+							name = "P11S",
+							uuid = "bf48dcc2-8712-cff8-8933-46c7f88d419c",
+							version = 2,
+						},
+						inheritedIndex = 9,
+					},
+				},
+				
+				{
+					position = 11,
+					type = "add",
+					value = 
+					{
+						data = 
+						{
+							category = "Filter",
+							conditions = 
+							{
+								
+								{
+									"6a0bb02d-9e9f-30e1-8ebf-ce18a739c690",
+									true,
+								},
+								
+								{
+									"bf48dcc2-8712-cff8-8933-46c7f88d419c",
+									true,
+								},
+								
+								{
+									"9392f673-1d78-2d7e-a6fc-9d59d984390f",
+									true,
+								},
+							},
+							matchAnyBuff = true,
+							uuid = "f33d57ae-3e54-fe0d-8ffe-5121193721ef",
+							version = 2,
+						},
+						inheritedIndex = 11,
+					},
+				},
+				
+				{
+					position = 13,
+					type = "add",
+					value = 
+					{
+						data = 
+						{
+							category = "Self",
+							conditionType = 12,
+							localMapIDList = 
+							{
+								1154,
+							},
+							name = "P12S",
+							uuid = "b4822831-a6e1-7360-8254-5ac50530f44d",
+							version = 2,
+						},
+						inheritedIndex = 13,
 					},
 				},
 			},
@@ -598,12 +708,12 @@ local tbl =
 							},
 							
 							{
-								"99e7895a-5ae8-37d3-aa77-d63452c63108",
+								"3b91f8ec-0e51-567f-bdf3-bf869a322742",
 								true,
 							},
 							
 							{
-								"3b91f8ec-0e51-567f-bdf3-bf869a322742",
+								"99e7895a-5ae8-37d3-aa77-d63452c63108",
 								true,
 							},
 						},
@@ -809,6 +919,22 @@ local tbl =
 						conditionType = 12,
 						localMapIDList = 
 						{
+							1148,
+						},
+						name = "P9s",
+						uuid = "9130b971-2839-6ac0-bfca-bfcdd904c6f0",
+						version = 2,
+					},
+					inheritedIndex = 10,
+				},
+				
+				{
+					data = 
+					{
+						category = "Self",
+						conditionType = 12,
+						localMapIDList = 
+						{
 							1150,
 						},
 						name = "P10S",
@@ -837,19 +963,6 @@ local tbl =
 				{
 					data = 
 					{
-						category = "Event",
-						comparator = 2,
-						eventCountdownTime = 13,
-						name = "~13s",
-						uuid = "07b90d65-36c8-db4f-934e-e4f2fe272db8",
-						version = 2,
-					},
-					inheritedIndex = 1,
-				},
-				
-				{
-					data = 
-					{
 						category = "Self",
 						conditionType = 12,
 						localMapIDList = 
@@ -860,20 +973,17 @@ local tbl =
 						uuid = "a7408635-d32a-5f25-81fb-04d7971c122d",
 						version = 2,
 					},
-					inheritedIndex = 1,
+					inheritedIndex = 13,
 				},
 				
 				{
 					data = 
 					{
-						category = "Self",
-						conditionType = 12,
-						localMapIDList = 
-						{
-							1148,
-						},
-						name = "P9s",
-						uuid = "9130b971-2839-6ac0-bfca-bfcdd904c6f0",
+						category = "Event",
+						comparator = 2,
+						eventCountdownTime = 13,
+						name = "~13s",
+						uuid = "07b90d65-36c8-db4f-934e-e4f2fe272db8",
 						version = 2,
 					},
 					inheritedIndex = 1,
