@@ -2103,7 +2103,7 @@ local tbl =
 				timelineIndex = 17,
 				timerEndOffset = 10,
 				timerOffset = 3,
-				timerStartOffset = 3.5,
+				timerStartOffset = 6.5,
 				uuid = "585a4eed-a530-4f91-91d0-d4b64dfdf61d",
 				version = 2,
 			},
@@ -4762,6 +4762,73 @@ local tbl =
 				timerOffset = -3,
 				timerStartOffset = -25,
 				uuid = "42801296-6927-1634-a6de-f39105d0125b",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"eea3a6d3-1878-77cf-8538-614c60cdeba5",
+									true,
+								},
+								
+								{
+									"a7db37ff-6c97-378b-a5d8-3667c6def160",
+									true,
+								},
+							},
+							gVar = "ACR_RikuWAR2_Hotbar_ShirkOT",
+							uuid = "6f974e85-fb90-fca9-94c0-c0c6c173d746",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							actionID = 7537,
+							category = "Self",
+							comparator = 2,
+							conditionType = 4,
+							uuid = "a7db37ff-6c97-378b-a5d8-3667c6def160",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							conditionType = 4,
+							enmityValue = 100,
+							uuid = "eea3a6d3-1878-77cf-8538-614c60cdeba5",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 242.1,
+				name = "[WAR] shrink e",
+				timeRange = true,
+				timelineIndex = 47,
+				timerEndOffset = -5,
+				timerOffset = -3,
+				timerStartOffset = -10,
+				uuid = "0f3c71dc-c4d1-66e6-b796-92d1c504d994",
 				version = 2,
 			},
 		},
@@ -8242,7 +8309,7 @@ local tbl =
 				timelineIndex = 98,
 				timerEndOffset = -0.5,
 				timerOffset = -10,
-				timerStartOffset = -6,
+				timerStartOffset = -8,
 				uuid = "13c96b3c-ca06-e2b1-aeed-d581717d0567",
 				version = 2,
 			},
@@ -9602,9 +9669,9 @@ local tbl =
 				name = "[WAR] baituo p2",
 				timeRange = true,
 				timelineIndex = 116,
-				timerEndOffset = 4,
+				timerEndOffset = 5,
 				timerOffset = -4,
-				timerStartOffset = -10,
+				timerStartOffset = 0.20000000298023,
 				uuid = "b3cbe008-2cd9-dfb2-8b4d-c199d8e9d928",
 				version = 2,
 			},
@@ -11151,14 +11218,6 @@ local tbl =
 						{
 							aType = "Variable",
 							actionID = 7389,
-							conditions = 
-							{
-								
-								{
-									"3b556ef8-dd4d-e428-8d9c-282bbb833af5",
-									true,
-								},
-							},
 							gVar = "ACR_RikuWAR2_Jumps",
 							gVarValue = 2,
 							ignoreWeaveRules = true,
@@ -11182,10 +11241,10 @@ local tbl =
 				},
 				mechanicTime = 1362.5,
 				name = "[WAR] jump off",
-				timeRange = true,
 				timelineIndex = 135,
 				timerEndOffset = 28,
-				uuid = "d291f9b4-bbe6-6e8b-b252-f76fe5f4ca8d",
+				timerOffset = 7,
+				uuid = "15c23791-26f3-c060-9d57-8dcc7b9ec6c3",
 				version = 2,
 			},
 			inheritedIndex = 3,
@@ -11783,6 +11842,7 @@ local tbl =
 						inheritedIndex = 2,
 					},
 				},
+				enabled = false,
 				mechanicTime = 1411.7,
 				name = "[WAR] baituo p2",
 				timeRange = true,
@@ -11982,6 +12042,7 @@ local tbl =
 						inheritedIndex = 2,
 					},
 				},
+				enabled = false,
 				mechanicTime = 1425.9,
 				name = "[WAR] baituo p2",
 				timeRange = true,
@@ -12209,6 +12270,7 @@ local tbl =
 						inheritedIndex = 2,
 					},
 				},
+				enabled = false,
 				mechanicTime = 1480.4,
 				name = "[WAR] baituo p2",
 				timeRange = true,

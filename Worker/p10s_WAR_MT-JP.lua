@@ -1061,6 +1061,7 @@ local tbl =
 						},
 					},
 				},
+				enabled = false,
 				mechanicTime = 118.4,
 				name = "[WAR] xuechou",
 				timeRange = true,
@@ -2999,6 +3000,7 @@ local tbl =
 				conditions = 
 				{
 				},
+				enabled = false,
 				mechanicTime = 344.7,
 				name = "[WAR] Dash",
 				timelineIndex = 59,
@@ -3503,7 +3505,6 @@ local tbl =
 						},
 					},
 				},
-				enabled = false,
 				mechanicTime = 375.3,
 				name = "[WAR] yongmeng debuff",
 				timeRange = true,
@@ -3828,7 +3829,7 @@ local tbl =
 				name = "[WAR] xueqi",
 				timelineIndex = 66,
 				timerEndOffset = 1,
-				timerOffset = 6.5,
+				timerOffset = 8,
 				timerStartOffset = -2,
 				uuid = "ea8547f3-e40b-a60b-a830-e28b4fe4cf57",
 				version = 2,

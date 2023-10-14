@@ -40,7 +40,8 @@ local tbl =
 						data = 
 						{
 							aType = "Lua",
-							actionLua = "p2 リプ：アルテマ1、アルテマ2、カロリックセオリー1、パンゲネシス、アルテマ5、アルテマ6、アルテマ7\n\n",
+							actionLua = "p2 リプ：アルテマ1、アルテマ2、カロリックセオリー1、パンゲネシス、イデア2、アルテマ5、アルテマ6、アルテマ7\n\n",
+							gVar = "ACR_RikuWAR2_CD",
 							uuid = "e9b31d39-c2ee-58f4-9d63-ff972a775eed",
 							version = 2,
 						},
@@ -297,6 +298,23 @@ local tbl =
 				timerOffset = 2,
 				uuid = "d0a3f82c-eab3-5e89-82fd-db4146b7a60f",
 				version = 2,
+			},
+		},
+	},
+	[5] = 
+	{
+		
+		{
+			data = 
+			{
+				name = "开场AC位置指路",
+				uuid = "d7c2cb9e-655e-ebe9-b729-c05474bf76b1",
+				version = 2,
+			},
+			inheritedObjectUUID = "a7698767-f759-c126-892d-3723e146077c",
+			inheritedOverwrites = 
+			{
+				enabled = false,
 			},
 		},
 	},
@@ -1128,20 +1146,6 @@ local tbl =
 				version = 2,
 			},
 			inheritedObjectUUID = "ec1e6bc4-ff05-5f57-b780-dc13b97ef842",
-			inheritedOverwrites = 
-			{
-				enabled = false,
-			},
-		},
-		
-		{
-			data = 
-			{
-				name = "2范拉线指路",
-				uuid = "625918e9-5e9d-6610-abd2-f18e2caaf37b",
-				version = 2,
-			},
-			inheritedObjectUUID = "7b844192-2928-1549-b905-8ca55d16b7f4",
 			inheritedOverwrites = 
 			{
 				enabled = false,
@@ -8058,9 +8062,12 @@ local tbl =
 									true,
 								},
 							},
-							gVar = "ACR_RikuWAR2_Tankbar_NascentFlashLowest",
+							gVar = "ACR_RikuWAR2_Tankbar_NascentFlashMouse",
 							ignoreWeaveRules = true,
+							subtypeRangeCheckSourceType = "Ranged Physical DPS",
+							targetType = "Party",
 							uuid = "6f974e85-fb90-fca9-94c0-c0c6c173d746",
+							variableIsHover = true,
 							variableTogglesType = 3,
 							version = 2,
 						},
@@ -8221,13 +8228,12 @@ local tbl =
 						},
 					},
 				},
-				enabled = false,
 				mechanicTime = 1108.6,
 				name = "[WAR] xuechou p2",
 				timeRange = true,
 				timelineIndex = 99,
 				timerEndOffset = -1.5,
-				timerStartOffset = -4,
+				timerStartOffset = -5,
 				uuid = "74a03e68-ee2a-eab3-b117-adedbe880c97",
 				version = 2,
 			},

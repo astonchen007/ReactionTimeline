@@ -3502,6 +3502,7 @@ local tbl =
 						inheritedIndex = 2,
 					},
 				},
+				enabled = false,
 				mechanicTime = 470.8,
 				name = "[WAR] baituo",
 				timeRange = true,
@@ -3580,6 +3581,75 @@ local tbl =
 				timerEndOffset = -0.5,
 				timerStartOffset = -6,
 				uuid = "90e32520-d1ba-984e-9485-1e55a7cdbcf5",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"f0ad3845-f69b-9e34-80c5-78fc4fb7e3c5",
+									true,
+								},
+							},
+							gVar = "ACR_RikuWAR2_Tankbar_ShakeItOff",
+							uuid = "712f51a9-c2ad-fc41-a060-43b4fb72262e",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							actionCDValue = 1,
+							actionID = 7388,
+							category = "Self",
+							comparator = 2,
+							conditionType = 4,
+							uuid = "f0ad3845-f69b-9e34-80c5-78fc4fb7e3c5",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							category = "Party",
+							comparator = 2,
+							conditionType = 4,
+							inRangeValue = 30,
+							minTargetPercent = true,
+							partyTargetNumber = 100,
+							partyTargetSubType = "Number",
+							uuid = "0431a591-7801-17e7-b3c8-7bf4cf9b0315",
+							version = 2,
+						},
+						inheritedIndex = 2,
+					},
+				},
+				mechanicTime = 483.9,
+				name = "[WAR] baituo",
+				timeRange = true,
+				timelineIndex = 61,
+				timerEndOffset = -1,
+				timerOffset = -4,
+				timerStartOffset = -12,
+				uuid = "67746b13-f05b-4245-bbf0-dc8188969365",
 				version = 2,
 			},
 		},
@@ -4209,7 +4279,7 @@ local tbl =
 				timelineIndex = 75,
 				timerEndOffset = 15,
 				timerOffset = -4,
-				timerStartOffset = -4,
+				timerStartOffset = -1,
 				uuid = "26192169-2a31-9230-9e9a-d1c7d5572bf0",
 				version = 2,
 			},
