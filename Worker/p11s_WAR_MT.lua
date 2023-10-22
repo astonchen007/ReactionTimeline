@@ -373,6 +373,41 @@ local tbl =
 			},
 		},
 	},
+	[7] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Hotbar_Onslaught",
+							uuid = "ebdf0ffd-390b-62e7-b35b-7bccc6e515cc",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 48.3,
+				name = "[WAR] Dash",
+				timeRange = true,
+				timelineIndex = 7,
+				timerEndOffset = 5,
+				timerStartOffset = 3,
+				uuid = "69224781-e40e-c835-8ebe-6f58fea169be",
+				version = 2,
+			},
+			inheritedIndex = 25,
+		},
+	},
 	[8] = 
 	{
 		
@@ -2620,7 +2655,7 @@ local tbl =
 				timelineIndex = 47,
 				timerEndOffset = 10,
 				timerOffset = -4,
-				timerStartOffset = -4,
+				timerStartOffset = 0.5,
 				uuid = "c23a57a8-289d-b3a7-b088-205ecc5031ba",
 				version = 2,
 			},
@@ -3218,6 +3253,37 @@ local tbl =
 				version = 2,
 			},
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Jumps",
+							gVarValue = 2,
+							uuid = "712f51a9-c2ad-fc41-a060-43b4fb72262e",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 426.6,
+				name = "[WAR] jump off",
+				timelineIndex = 54,
+				timerEndOffset = -5,
+				timerOffset = -3,
+				timerStartOffset = -4,
+				uuid = "5d437eb9-eff2-04e7-842a-4fde35e70683",
+				version = 2,
+			},
+		},
 	},
 	[55] = 
 	{
@@ -3285,6 +3351,36 @@ local tbl =
 				timerEndOffset = -0.5,
 				timerStartOffset = -10,
 				uuid = "763510b1-37e9-9ea4-964b-8a6e8c82e90d",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuWAR2_Jumps",
+							uuid = "712f51a9-c2ad-fc41-a060-43b4fb72262e",
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 432.6,
+				name = "[WAR] jump on",
+				timelineIndex = 55,
+				timerEndOffset = -5,
+				timerOffset = 0.5,
+				timerStartOffset = -4,
+				uuid = "393500b7-7ac2-1073-9d64-ea305164ffca",
 				version = 2,
 			},
 		},
@@ -4383,9 +4479,9 @@ local tbl =
 				},
 				mechanicTime = 580.4,
 				name = "[WAR] xueqi",
+				timeRange = true,
 				timelineIndex = 76,
-				timerEndOffset = -5,
-				timerStartOffset = -4,
+				timerEndOffset = 15,
 				uuid = "ec49b644-96f4-0007-8d57-3dfa5814b595",
 				version = 2,
 			},
@@ -4494,6 +4590,58 @@ local tbl =
 				timerOffset = 1,
 				timerStartOffset = -4,
 				uuid = "a388bbdc-b6de-f1a1-8b43-94cb8ee17005",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							conditions = 
+							{
+								
+								{
+									"f0ad3845-f69b-9e34-80c5-78fc4fb7e3c5",
+									true,
+								},
+							},
+							gVar = "ACR_RikuWAR2_Tankbar_Vengeance",
+							uuid = "712f51a9-c2ad-fc41-a060-43b4fb72262e",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							actionCDValue = 1,
+							actionID = 44,
+							category = "Self",
+							comparator = 2,
+							conditionType = 4,
+							uuid = "f0ad3845-f69b-9e34-80c5-78fc4fb7e3c5",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 619.5,
+				name = "[WAR] fuchou",
+				timeRange = true,
+				timelineIndex = 81,
+				timerEndOffset = 3,
+				timerStartOffset = -2,
+				uuid = "b486aaa4-d6a5-8509-a810-b92b8ed32763",
 				version = 2,
 			},
 		},
